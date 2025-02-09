@@ -1,150 +1,100 @@
 from g4f.client import Client
-import wave
-import subprocess
 import requests
-from markdown import markdown
 from bs4 import BeautifulSoup
 import base64
 import json
-
+import time
+import os
+import datetime
 
 client = Client()
 REPO = "Pastebin"
 OWNER = "John4650-hub"
 PATH = "paste.md"
+PATH_RD="msg.txt"
 bio = False
-txt = ""
+token = os.getenv("GITHUB_TOKEN")
 sysMsg = ""
-not_allowed=[]
-with open("notAllowed.txt","r") as fhand:
-    not_allowed=[i.strip() for i in fhand.readlines()]
-with open("msg.md", "r") as fhand:
-    txt = fhand.read()
-    fhand.close()
+not_allowed = []
+with open("notAllowed.txt", "r") as fhand:
+    not_allowed = [i.strip() for i in fhand.readlines()]
 
-with open("system.md","r") as fhand:
+with open("system.md", "r") as fhand:
     sysMsg = fhand.read()
 
-MSG = ""
-if bio == True:
-    with open("bioTeacdnher.txt", "r") as ppt:
-        MSG = ppt.read() + txt
-elif bio == False:
-    MSG = txt
-#g4f.debug.logging = False  # Enable logging
-#g4f.check_version = False  # Disable automatic version checking
-msgGot = False
-ans = ""
 
-# api = TTS("tts_models/en/ljspeech/speedy-speech").to("cpu")
-while msgGot == False:
-    response = client.chat.completions.create(
-            model="gpt-4o", messages=[{"role":"system", "content":sysMsg},{"role": "user", "content": MSG}]
-    )
-    if response.choices[0].message.content not in not_allowed:
-        msgGot = True
-    if msgGot == True:
-        c = base64.b64encode(bytes(response.choices[0].message.content
-, "utf-8")).decode("utf-8")
-        url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{PATH}"
+def getMessage():
+   msg = requests.get("https://raw.githubusercontent.com/JamyJones/jjdgdjf/refs/heads/gemelo/msg.md")
+   return msg.text
 
-        # Set up headers for the request
-        headers = {
-            "Accept": "application/vnd.github+json",
-            "Authorization": f'Bearer {base64.b64decode("Z2hwX1ZSc01RdGxDMHIydzVPTEt3aEJ0cGhSS09BU0h1czBWUHBTQw==".encode("ascii")).decode("ascii")}',
-            "X-GitHub-Api-Version": "2022-11-28",
-        }
+def runChat(MSG):
+    """
+    run chat.
+    """
+    while msgGot == False:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": sysMsg},
+                {"role": "user", "content": MSG},
+            ],
+        )
+        if response.choices[0].message.content not in not_allowed:
+            msgGot = True
+        if msgGot == True:
+            c = base64.b64encode(
+                bytes(response.choices[0].message.content, "utf-8")
+            ).decode("utf-8")
+            url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{PATH}"
 
-        # Fetch the current content of the file to get the SHA
-        response = requests.get(url, headers=headers)
-
-        # Check if the request was successful
-        if response.status_code == 200:
-            sha_ = response.json()["sha"]
-            print(sha_)
-        else:
-            print(f"Error fetching file: {response.status_code} - {response.text}")
-            exit()
-
-        # Prepare the data for the update
-        data = {
-            "message": "done",
-            "content": c,
-            "sha": sha_,
-        }
-
-        # Update the file content using PUT request
-        p = requests.put(url, headers=headers, json=data)
-
-        # Check if the update was successful
-        if p.status_code == 200:
-            print("File updated successfully.")
-        else:
-            print(f"Error updating file: {p.status_code} - {p.text}")
-        #ans += response
-        break
-# input_=ffmpeg.input("output.wav")
-# out_=ffmpeg.output(input_,"output.flac")
-saved = False
-if bio == True:
-    # Replace with your actual keys
-    client_key = "fFsTHf3mTrxe9UkRJg1gQReear8kttqa"
-    api_key = "nw1MXEELguRgemTT9fxg6UmpUVQ1Z66d"
-    # Data to be sent
-    html = markdown(ans)
-    text = "".join(BeautifulSoup(html).findAll(text=True))
-    res = text.split(".")
-    fwavs = []
-    n = 1
-    for talk in res:
-        fname = f"output{n}.wav"
-        if len(talk) < 5:
-            continue
-        else:
-            data = {"voiceId": 1017, "text": talk}
-
-            # Headers with your API keys
+            # Set up headers for the request
             headers = {
-                "X-Client-Key": client_key,
-                "X-Api-Key": api_key,
-                "Content-Type": "application/json",  # Optional, but recommended
+                "Accept": "application/vnd.github+json",
+                "Authorization": f"Bearer {token}",
+                "X-GitHub-Api-Version": "2022-11-28",
             }
 
-            # Send POST request
-            response = requests.post(
-                "https://api.gemelo.ai/v1/tts/convert", headers=headers, json=data
-            )
+            # Fetch the current content of the file to get the SHA
+            response = requests.get(url, headers=headers)
 
-            # Check for successful response
+            # Check if the request was successful
             if response.status_code == 200:
-                # Write the audio content to a file
-                fname = f"output{n}.wav"
-                with open("out_/" + fname, "wb") as f:
-                    f.write(response.content)
-                fwavs.append(fname)
-                n += 1
+                sha_ = response.json()["sha"]
             else:
-                print(f"Error converting text: {response}")
-    data = []
-    outfile = "output.wav"
-    for fwv in fwavs:
-        w = wave.open("out_/" + fwv, "rb")
-        data.append([w.getparams(), w.readframes(w.getnframes())])
-        w.close()
-    output = wave.open(outfile, "wb")
-    output.setparams(data[0][0])
-    for i in range(len(data)):
-        output.writeframes(data[i][1])
-    output.close()
-    saved = True
-if saved == True:
-    subprocess.run("ls -lh", shell=True)
-    subprocess.run(
-        f"ffmpeg -i output.wav -acodec libmp3lame -b:a 50k output.mp3", shell=True
-    )
-    subprocess.run("clear", shell=True)
-# if bio == False:
-#    subprocess.run("touch output.mp3", shell=True)
-# subprocess.run("echo msg here", shell=True)
+                print(f"Error fetching file: {response.status_code} - {response.text}")
+                exit()
 
-# print(ans)
+            # Prepare the data for the update
+            data = {
+                "message": "done",
+                "content": c,
+                "sha": sha_,
+            }
+
+            # Update the file content using PUT request
+            p = requests.put(url, headers=headers, json=data)
+
+            # Check if the u:pdate was successful
+            if p.status_code == 200:
+                print("File updated successfully.")
+            else:
+                print(f"Error updating file: {p.status_code} - {p.text}")
+            break
+
+if __name__=="__main__":
+    prev_msg = ""
+    new_msg= ""
+    while True:
+        with open("msg.md", "r") as fhand:
+            new_msg = getMessage()
+            fhand.close()
+        if new_msg=="exit":
+            break
+        elif new_msg==prev_msg:
+            continue
+        else:
+            runChat(new_msg)
+            prev_msg=new_msg
+        time.sleep(10)
+        current_time = datetime.now()
+        print(current_time.strftime("%Y-%m-%d %H:%M:%S"))
