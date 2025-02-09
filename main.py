@@ -24,13 +24,13 @@ with open("system.md", "r") as fhand:
     sysMsg = fhand.read()
 
 
-def read_github_file(repo, path):
+def getMessage():
     url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{PATH_R}"
     response = requests.get(url)
     if response.status_code == 200:
         content = response.json().get("content", "")
         decoded_content = base64.b64decode(content).decode("utf-8")
-        return decoded_content
+        return decoded_content.strip()
     else:
         print(f"Failed to retrieve file: {response.status_code}")
         return None
