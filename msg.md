@@ -1,1 +1,1 @@
-i want to build an android application which is to act as console for playing javascript based phaser 3 games, what programming langauges
+i want to build an android application which is to act as console for playing javascript based phaser 3 games, what programming langauge should i use btween Nativescript and java
