@@ -2,8 +2,6 @@ name: Start chat session
 
 on:
   workflow_dispatch:
-  push:
-    branches: ["gemelo"]
 jobs:
   build:
 
