@@ -10,6 +10,7 @@ from datetime import datetime
 
 client = Client()
 REPO = "Pastebin"
+REPO_R="jjdgdjf"
 OWNER = "JamyJones"
 PATH = "paste.md"
 PATH_R = "msg.md"
@@ -25,7 +26,7 @@ with open("system.md", "r") as fhand:
 
 
 def getMessage():
-    url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{PATH_R}"
+    url = f"https://api.github.com/repos/{OWNER}/{REPO_R}/contents/{PATH_R}"
     response = requests.get(url)
     if response.status_code == 200:
         content = response.json().get("content", "")
