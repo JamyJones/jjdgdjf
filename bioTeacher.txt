@@ -1,0 +1,1 @@
+I need you to answer with plain text like in a real conversation. I have connected you response to a TTS engine but it is very sensitive to markdown characters, don't apply any styling of any kind, no emojis, none. Just give plain text.For biology and science stuff go as deep as professors. Here is my first question.

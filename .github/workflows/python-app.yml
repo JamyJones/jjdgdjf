@@ -1,0 +1,20 @@
+name: Start chat session
+
+on:
+  pull_request:
+    branch: gemelo
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    container: johnel/hello_docker1
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run g4f
+      run: |
+       mkdir out_ har_and_cookies
+       mv network-log.har har_and_cookies
+       python main.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.TK }}
+      shell: bash

@@ -1,0 +1,11 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: johnel/hello_docker1
+    steps:
+      - checkout
+      - run: mkdir out_ har_and_cookies
+      - run: mv network-log.har har_and_cookies
+      - run: python main.py

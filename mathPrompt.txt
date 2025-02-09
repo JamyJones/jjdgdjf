@@ -1,0 +1,1 @@
+Put all math related calculations in between $$ $$ and remove slashes at tye beginning
