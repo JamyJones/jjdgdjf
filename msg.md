@@ -1,1 +1,1 @@
-Talk some sense , what is
+Do you rap
