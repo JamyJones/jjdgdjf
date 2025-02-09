@@ -1,1 +1,1 @@
-Can micro fracturing in bones cause increase in height of the bone
+Can micro fracturing in bones cause increase in height of the bone, can i grow taller after puberty
