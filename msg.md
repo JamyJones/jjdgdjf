@@ -1,1 +1,1 @@
-What remote browsers can i use that work like necko
+What docker images can i use to run a remote browser
