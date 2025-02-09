@@ -101,10 +101,9 @@ if __name__ == "__main__":
         if new_msg == "exit":
             break
         elif new_msg == prev_msg:
-            continue
+            time.sleep(20)
+            current_time = datetime.now()
+            print(current_time.strftime("%Y-%m-%d %H:%M:%S"))
         else:
             runChat(new_msg)
-            prev_msg = new_msg
-        time.sleep(20)
-        current_time = datetime.now()
-        print(current_time.strftime("%Y-%m-%d %H:%M:%S"))
+            prev_msg = new_msg 
