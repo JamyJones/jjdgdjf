@@ -11,7 +11,7 @@ client = Client()
 REPO = "Pastebin"
 OWNER = "John4650-hub"
 PATH = "paste.md"
-PATH_RD="msg.txt"
+PATH_RD = "msg.txt"
 bio = False
 token = os.getenv("GITHUB_TOKEN")
 sysMsg = ""
@@ -24,14 +24,18 @@ with open("system.md", "r") as fhand:
 
 
 def getMessage():
-   msg = requests.get("https://raw.githubusercontent.com/JamyJones/jjdgdjf/refs/heads/gemelo/msg.md")
-   return msg.text
+    msg = requests.get(
+        "https://raw.githubusercontent.com/JamyJones/jjdgdjf/refs/heads/gemelo/msg.md"
+    )
+    return msg.text
+
 
 def runChat(MSG):
     """
     run chat.
     """
-    while msgGot == False:
+    msgGot = False
+    while not msgGot:
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
@@ -81,20 +85,21 @@ def runChat(MSG):
                 print(f"Error updating file: {p.status_code} - {p.text}")
             break
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     prev_msg = ""
-    new_msg= ""
+    new_msg = ""
     while True:
         with open("msg.md", "r") as fhand:
             new_msg = getMessage()
             fhand.close()
-        if new_msg=="exit":
+        if new_msg == "exit":
             break
-        elif new_msg==prev_msg:
+        elif new_msg == prev_msg:
             continue
         else:
             runChat(new_msg)
-            prev_msg=new_msg
+            prev_msg = new_msg
         time.sleep(10)
         current_time = datetime.now()
         print(current_time.strftime("%Y-%m-%d %H:%M:%S"))
