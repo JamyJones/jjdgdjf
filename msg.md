@@ -1,1 +1,1 @@
-Is openjdk and jre different can i have one installed like jre without jdk
+What is the best java documentation
