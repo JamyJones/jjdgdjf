@@ -9,7 +9,7 @@ import datetime
 
 client = Client()
 REPO = "Pastebin"
-OWNER = "John4650-hub"
+OWNER = "JamyJones"
 PATH = "paste.md"
 token = os.getenv("GITHUB_TOKEN")
 print(len(token))
