@@ -1,1 +1,1 @@
-exit
+How fast is light
