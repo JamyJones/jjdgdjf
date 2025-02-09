@@ -1,1 +1,1 @@
-Do you rap
+Can micro fracturing in bones cause increase in height of the bone
