@@ -27,7 +27,7 @@ def getMessage():
     msg = requests.get(
         "https://raw.githubusercontent.com/JamyJones/jjdgdjf/refs/heads/gemelo/msg.md"
     )
-    return msg.text
+    return msg.text.strip()
 
 
 def runChat(MSG):
