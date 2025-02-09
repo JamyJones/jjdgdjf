@@ -11,9 +11,8 @@ client = Client()
 REPO = "Pastebin"
 OWNER = "John4650-hub"
 PATH = "paste.md"
-PATH_RD = "msg.txt"
-bio = False
 token = os.getenv("GITHUB_TOKEN")
+print(len(token))
 sysMsg = ""
 not_allowed = []
 with open("notAllowed.txt", "r") as fhand:
