@@ -1,1 +1,1 @@
-How does a browser engine works
+My browser is old and i can't update it because google dropped support for older devices (android 23). I have heard of v8, together with a flask application where by v8 processes the javascript
