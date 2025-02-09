@@ -34,7 +34,7 @@ def getMessage():
         return decoded_content.strip()
     else:
         print(f"Failed to retrieve file: {response.status_code}")
-        return None
+        return "exit"
 
 
 def runChat(MSG):
