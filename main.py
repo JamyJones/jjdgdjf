@@ -12,6 +12,7 @@ client = Client()
 REPO = "Pastebin"
 OWNER = "JamyJones"
 PATH = "paste.md"
+PATH_R = "msg.md"
 token = os.getenv("GITHUB_TOKEN")
 print(len(token))
 sysMsg = ""
@@ -23,11 +24,16 @@ with open("system.md", "r") as fhand:
     sysMsg = fhand.read()
 
 
-def getMessage():
-    msg = requests.get(
-        "https://raw.githubusercontent.com/JamyJones/jjdgdjf/refs/heads/gemelo/msg.md"
-    )
-    return msg.text.strip()
+def read_github_file(repo, path):
+    url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{PATH_R}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        content = response.json().get("content", "")
+        decoded_content = base64.b64decode(content).decode("utf-8")
+        return decoded_content
+    else:
+        print(f"Failed to retrieve file: {response.status_code}")
+        return None
 
 
 def runChat(MSG):
@@ -90,9 +96,7 @@ if __name__ == "__main__":
     prev_msg = ""
     new_msg = ""
     while True:
-        with open("msg.md", "r") as fhand:
-            new_msg = getMessage()
-            fhand.close()
+        new_msg = getMessage()
         if new_msg == "exit":
             break
         elif new_msg == prev_msg:
