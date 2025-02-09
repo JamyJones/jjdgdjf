@@ -105,6 +105,6 @@ if __name__ == "__main__":
         else:
             runChat(new_msg)
             prev_msg = new_msg
-        time.sleep(10)
+        time.sleep(20)
         current_time = datetime.now()
         print(current_time.strftime("%Y-%m-%d %H:%M:%S"))
