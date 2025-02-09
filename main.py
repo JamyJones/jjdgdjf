@@ -5,7 +5,8 @@ import base64
 import json
 import time
 import os
-import datetime
+from datetime import datetime
+
 
 client = Client()
 REPO = "Pastebin"
