@@ -1,1 +1,1 @@
-How does the android webview know which web engine to use , how do apps that ship with their own browser engines like gecko for mozilla browser use their own engine irrespective of that already available on the android
+Is openjdk and jre different can i have one installed like jre without jdk
