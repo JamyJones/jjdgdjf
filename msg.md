@@ -1,1 +1,1 @@
-How can i use c++ to communicate with gecko engine
+How can i build a Mozilla's reference browser with only the features i need
