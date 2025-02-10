@@ -1,1 +1,1 @@
-What is required to run gtk applications on android
+Why does a c++ binary compiled on linux doesn't run on android without use of NDK what more does the NDK do the source code
