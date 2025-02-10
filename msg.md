@@ -1,1 +1,1 @@
-Iam learning java through building console apps, i feel like am heading into tutorial hell what can i do. I was told i needed to understand java before movong into android app development
+Can javascript code be packaged
