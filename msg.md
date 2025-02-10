@@ -1,1 +1,1 @@
-Can javascript code be packaged
+How can javascript games be accelerated with hardware
