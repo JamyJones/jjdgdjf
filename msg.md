@@ -1,1 +1,1 @@
-How can javascript games be accelerated with hardware
+What is required to run gtk applications on android
