@@ -1,1 +1,1 @@
-How is audio buffer calculated
+What is the buffer size of ffplay
