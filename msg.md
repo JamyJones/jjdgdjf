@@ -1,1 +1,1 @@
-What is the buffer size of ffplay
+'What is the suitable buffer size for s16le audio where each frame is 4bytes
