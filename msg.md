@@ -1,1 +1,1 @@
-Why does a c++ binary compiled on linux doesn't run on android without use of NDK what more does the NDK do the source code
+How is audio buffer calculated
