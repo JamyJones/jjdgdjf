@@ -13,5 +13,5 @@ Calling setFramesPerDataCallback() does not guarantee anything about timing. Thi
 If this number is larger than the burst size, some bursts will not receive a callback. If this number is smaller than the burst size, there may be multiple callbacks in a single burst.
 
 Parameters
-framesPerCallback	
+framesPerCallback,	
 "
