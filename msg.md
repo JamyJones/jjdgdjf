@@ -1,1 +1,1 @@
-What is FFTs (Fast Fourier Transforms)?
+What is open framework used for
