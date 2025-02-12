@@ -1,1 +1,1 @@
-What is open framework used for?
+What is opencv used for c++
