@@ -1,1 +1,1 @@
-What is opencv used for c++?
+Can i use opencv to split an image into 5 images
