@@ -1,1 +1,1 @@
-What is a crypto mining pool
+What is a crypto mining pool?
