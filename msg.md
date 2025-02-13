@@ -1,1 +1,1 @@
-What is hashrate in bitcoin mining poola
+what cli program can i use to mine bitcoin into my electrum wallet
