@@ -1,1 +1,1 @@
-If i build an app using nativescript to run javascript phase3 hmtl 5 games, what draw backs should i expect
+convince me into learning typescript. Iam very good at javascript and feel like using typescript  is just avoiding the enjoyment of coding
