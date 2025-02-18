@@ -1,1 +1,1 @@
-lately all old browsers don't display stack overflow all of a sudden. Could the issue be that iam running old webview or that the system v8 engine installed by the phone manufacturer is  outdated.
+Why should i learn cmake yet i use more pf the github actions during development
