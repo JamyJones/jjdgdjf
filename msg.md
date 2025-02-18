@@ -1,1 +1,1 @@
-convince me into learning typescript. Iam very good at javascript and feel like using typescript  is just avoiding the enjoyment of coding
+what c++/C library can i use to get a real feel of what hardware programming is like
