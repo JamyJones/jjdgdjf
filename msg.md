@@ -1,2 +1,1 @@
-Explain the command below , assume i don't know anything about video editting with ffmpeg.
-ffmpeg -f lavfi -i color=s=340x360 -loop 1 -t 0.08 -i images/image_1.jpg -filter_complex "[1:v]scale=340:-2,setpts=if(eq(N\,0)\,0\,1+1/0.02/TB),fps=24[fg]; [0:v][fg]overlay=y=-'t*h*0.02':eof_action=endall[v]" -map "[v]" output.mp4
+How does Cmake work
