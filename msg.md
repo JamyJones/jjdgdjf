@@ -1,1 +1,1 @@
-Why should i learn cmake yet i use more pf the github actions during development
+How does the computer gui work, forexample i have noticed that on android, java is able to use the android framework to create a GUI, appart from that i was wondering if their could be any other framework that can be used on android or could you even explain how i can build one similar to the android libary.
