@@ -1,1 +1,1 @@
-How does the computer gui work, forexample i have noticed that on android, java is able to use the android framework to create a GUI, appart from that i was wondering if their could be any other framework that can be used on android or could you even explain how i can build one similar to the android libary.
+If i build an app using nativescript to run javascript phase3 hmtl 5 games, what draw backs should i expect
