@@ -1,2 +1,2 @@
 How can i fix the error below
-CANNOT LINK EXECUTABLE: cannot locate symbol "_ZTTNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE" referenced by
+CANNOT LINK EXECUTABLE: cannot locate symbol "_ZTTNSt6__ndk119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEE" referenced by ...
