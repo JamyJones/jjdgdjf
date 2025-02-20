@@ -27,7 +27,12 @@ with open("system.md", "r") as fhand:
 
 def getMessage():
     url = f"https://api.github.com/repos/{OWNER}/{REPO_R}/contents/{PATH_R}"
-    response = requests.get(url)
+    headers = {
+    "Authorization": f"token {token}",
+    "Accept": "application/vnd.github.v3+json"
+}
+
+    response = requests.get(url, headers=headers)
     if response.status_code == 200:
         content = response.json().get("content", "")
         decoded_content = base64.b64decode(content).decode("utf-8")
@@ -106,4 +111,4 @@ if __name__ == "__main__":
             print(current_time.strftime("%Y-%m-%d %H:%M:%S"))
         else:
             runChat(new_msg)
-            prev_msg = new_msg 
+            prev_msg = new_msg
