@@ -1,1 +1,1 @@
-what fun things can i do with c++ that can also be entertaining, BTW is it possiblebto create android app that uses  it's own version of opengles3
+How can i deal with sex drive now that iam 20
