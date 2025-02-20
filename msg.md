@@ -1,1 +1,1 @@
-What is __aeabi_memcpy
+Why are static deb packages so huge
