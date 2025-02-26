@@ -1,1 +1,1 @@
-Why are static deb packages so huge
+Teach me how interfaces work in java
