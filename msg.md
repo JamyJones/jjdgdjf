@@ -1,1 +1,1 @@
-Recommend me 5 books to learn chinese
+Use Andrew Tate's tone based the information , provide me some advice and lesson to succeed, i want girls, i watch shity videos online, i workout from home, i read alot etc
