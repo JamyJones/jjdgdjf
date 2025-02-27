@@ -1,1 +1,1 @@
-Teach me how interfaces work in java
+How do you say hello in chinese
