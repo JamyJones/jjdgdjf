@@ -1,1 +1,1 @@
-Why would i not amount to anything if i drop out
+Tell me what interesting things this teenage boy's mind of mine will gain from learn chinese
