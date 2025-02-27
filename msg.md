@@ -1,1 +1,1 @@
-How do you say hello in chinese
+How can i use anki to learn chinese
