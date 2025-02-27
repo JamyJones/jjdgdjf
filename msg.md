@@ -1,1 +1,1 @@
-Use Andrew Tate's tone based the information , provide me some advice and lesson to succeed, i want girls, i watch shity videos online, i workout from home, i read alot, i want to learn new things every now and then but my mind keeps on going to something else
+Why would i not amount to anything if i drop out
