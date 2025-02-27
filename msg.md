@@ -1,1 +1,1 @@
-Tell me what interesting things this teenage boy's mind of mine will gain from learn chinese
+Why do i think about girls almost all day. I have just turned 20 and am restless
