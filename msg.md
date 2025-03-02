@@ -1,1 +1,1 @@
-Is it possible to set a github workflow to checkout a different repository and also run when that repository is pushed to
+If you were human, what would you do
