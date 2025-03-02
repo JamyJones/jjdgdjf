@@ -10,4 +10,4 @@ ffmpeg_command = [
 And why do i get the error below
 [AVFilterGraph @ 0x5646865b5f40] Trailing garbage after a filter: amix=inputs=2:duration=longest[audio_out]
 [AVFilterGraph @ 0x5646865b5f40] Error parsing filterchain '[0:a]loudnorm[voice]amix=inputs=2:duration=longest[audio_out]' around: amix=inputs=2:duration=longest[audio_out]
-Failed to set value '[1:a]adelay=12266.0|12266.0,loudnorm[voice];[0:a]loudnorm[voice]amix=inputs=2:duration=longest[audio_out]' for option 'filter_complex': Invalid argument
+Failed to set value '[1:a]adelay=12266.0|12266.0,loudnorm[voice];[0:a]loudnorm[voice]amix=inputs=2:duration=longest[audio_out]' for option 'filter_complex': Invalid argument.
