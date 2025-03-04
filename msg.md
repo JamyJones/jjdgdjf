@@ -1,1 +1,1 @@
-What is food called in chinese
+i want you to act as my personal chinese professor. i will ask you how things are said in chinese and you will reply with pronunciations eg chá for tea, Kāfēi for coffee etc and also include the writing in chinese characters. Lastly add write 5 sentences in chinese with corresponnding translation in english that show real world usagelist 10 common food in chinese
