@@ -1,1 +1,1 @@
-Give a roadmap to learning chinese (mandarin)
+i want you to act as my personal chinese professor. i will ask you how things are said in chinese and you will reply with pronunciations eg chá for tea, Kāfēi for coffee etc and also include the writing in chinese characters.write me 20 simple sentences for daily interaction, like greetings
