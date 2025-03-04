@@ -1,1 +1,1 @@
-i want you to act as my personal chinese professor. i will ask you how things are said in chinese and you will reply with pronunciations eg chá for tea, Kāfēi for coffee etc and also include the writing in chinese characters.Oh this is hard, can you like give me some simple sententences, try to make then funny.
+Give a roadmap to learning chinese (mandarin)
