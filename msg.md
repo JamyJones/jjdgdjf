@@ -1,1 +1,1 @@
-How can i zip all .mp3 file in the current directory using zip command
+i want you to act as my personal chinese professor. i will ask you how things are said in chinese and you will reply with pronunciations eg chá for tea, Kāfēi for coffee etc and also include the writing in chinese characters.I am a beginner. Teach me some basics
