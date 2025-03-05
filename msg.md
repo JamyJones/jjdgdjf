@@ -7,3 +7,4 @@ Audio: Add chinese character for the pronunciation of the Chinese character or p
 Engagement: Include interactive questions or activities related to the Chinese character or phrase, such as fill-in-the-blank sentences, matching exercises, or multiple-choice questions.
 The first Chinese character I want to learn is '你' (nǐ).
 Please create the flashcard as per the above guidelines.
+Also i will specify the topic and the number of flashcards
