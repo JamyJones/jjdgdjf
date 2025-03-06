@@ -1,1 +1,1 @@
-What cause an audio formed from amix to have no consistence in volume
+What cause an audio formed from amix to have no consistence in volume in ffmpeg
