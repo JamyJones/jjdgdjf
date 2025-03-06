@@ -1,1 +1,1 @@
-exit
+What causes change of volume while using ffmpeg
