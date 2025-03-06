@@ -1,1 +1,1 @@
-What causes change of volume while using ffmpeg
+What cause an audio formed from amix to have no consistence in volume
