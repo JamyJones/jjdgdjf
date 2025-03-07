@@ -1,2 +1,1 @@
-How can i make ffmpeg amix filter not interfere with volume?
-ffmpeg -i audio1.mp3 -i audio2.mp3 -filter_complex "[0:a][1:a]amix=inputs=2:duration=longest:dropout_transition=0:normalize=0[a]" -map "[a]" output.mp3
+How can silence some parts of the audio based on the timestamps
