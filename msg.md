@@ -9,3 +9,4 @@ The other output is from a new libc.so that i have downloaded
 0000cabe T __aeabi_memcpy
 0000cac0 T __aeabi_memcpy4
 0000cac2 T __aeabi_memcpy8
+How can i use patchelf to let the interpreter/linker refer to the new libc.so for a given shared library(.so)
