@@ -1,1 +1,5 @@
-After using patchelf to replace a dependency why now i get CANNOT LINK EXECUTABLE: can't read file . is a directory
+What packages do these librariea come from
+libjimage.so                   
+libjli.so                      
+libjq.so                       
+libjsig.so
