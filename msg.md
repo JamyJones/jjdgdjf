@@ -1,6 +1,1 @@
-What packages do these librariea come from
-libjimage.so                   
-libjli.so                      
-libjq.so                       
-libjsig.so
-jspawnhelper
+I want to start content creation but all i have is a commandline interface and sad it doesn't support gui programs. What can i do
