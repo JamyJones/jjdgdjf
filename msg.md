@@ -1,2 +1,1 @@
-How to replace dependences of a shared library
-Using patchelf
+After using patchelf to replace a dependency why now i get CANNOT LINK EXECUTABLE: can't read file . is a directory
