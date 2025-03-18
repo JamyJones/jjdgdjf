@@ -1,1 +1,1 @@
-I want you to act as a programming practice challenge creator. I will specify a programming language and a specific concept I want to master within that language. You will then provide me with 10 programming practice challenges that progressively increase in difficulty. These challenges should be tailored to help me deeply understand and master the specified concept. Ensure that each challenge is solvable, but also requires me to think critically and apply the concept effectively.  exit
+exit
