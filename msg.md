@@ -1,1 +1,1 @@
-How can i get tge length of an array in bash
+How can i access an element in an array in bash like first element etc
