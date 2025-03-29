@@ -1,1 +1,1 @@
-If i have css in my github page project how can i link it.
+If i have css in my github page project how can i link it if i have pages dir conatiaining pages yet css dir is in the root of my project
