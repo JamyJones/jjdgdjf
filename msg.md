@@ -1,1 +1,1 @@
-How does sofware engineering differ from computer science
+when were you last trained
