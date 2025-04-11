@@ -1,2 +1,1 @@
-How can i resolve this
-cannot locate symbol "getgrgid_r"
+How can i configure compiler to statically include all sysmbol so that i can run on systems with older versions of glibc
