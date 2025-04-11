@@ -1,3 +1,3 @@
-Why this
-gcc -no-pie -static test.c
-What does -no-pie really do, if this is compiled with say ndk api 24 and then run on system with api 23 will still work?
+How can i solve
+ symbol bzstd.so.1: unused DT entry: type 0x1d arg 0x38ea
+CANNOT LINK EXECUTABLE: cannot locate symbol "getgrgid_r" referenced by ..
