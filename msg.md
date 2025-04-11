@@ -1,20 +1,5 @@
-Is this code correct
-#include <stdio.h>
-#include <grp.h>
-#include <unistd.h>
-
-int main() {
-    gid_t gid = getgid();
-    struct group grp;
-    char buffer[1024];
-    struct group *result;
-
-    // Using getgrgid_r to get group information
-    if (getgrgid_r(gid, &grp, buffer, sizeof(buffer), &result) == 0 && result != NULL) {
-        printf("Group Name: %s\n", grp.gr_name);
-    } else {
-        perror("getgrgid_r failed");
-    }
-
-    return 0;
-}
+What is the error
+./pre_conf_build.sh: line 12: syntax error in conditional expression: unexpected token `;'
+ ./pre_conf_build.sh: line 12: syntax error near `;'
+ ./pre_conf_build.sh: line 12: `  if [[ "${exclude_these_script[@]}" =~ " $dep_ "]]; then'
+ ##[error]Process completed with exit code 2.
