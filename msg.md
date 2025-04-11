@@ -1,1 +1,1 @@
-Most useful compiler options
+10 Most useful compiler options for static linking
