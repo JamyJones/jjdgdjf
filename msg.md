@@ -1,1 +1,1 @@
-Why would a program show abort message meaning it was killed by system for some reason unkmown
+Why is my tesseract cpp program being aborted on starting
