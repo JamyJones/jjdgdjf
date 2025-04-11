@@ -1,2 +1,2 @@
-How can i configure compiler to statically include all sysmbol so that i can run on systems with older versions of glibc
-I have tried to use LDFLAGS+="-static-libgcc -static-libstdc++" but still many symbols are missing, i want to include all symbols from glibc
+How can i also statically link c library and clang runtime library
+LDFLAGS+="-static-libgcc -static-libstdc++"
