@@ -1,1 +1,1 @@
-Ok
+what more is their about static linking, does this mean the library doesn't depend on any .os even system libc.so
