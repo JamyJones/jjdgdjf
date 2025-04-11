@@ -1,1 +1,1 @@
-Heeloo tessdata path cpp api when defining it do i just put the path or even include the filename
+Why would a program show abort message meaning it was killed by system for some reason unkmown
