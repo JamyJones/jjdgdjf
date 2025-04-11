@@ -1,1 +1,1 @@
-exit
+Heeloo tessdata path
