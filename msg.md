@@ -1,1 +1,1 @@
-Write me code to use tesseract to scan an image
+Write me code to use tesseract to scan an image using c++
