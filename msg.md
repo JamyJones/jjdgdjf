@@ -1,1 +1,1 @@
-Write me a simplr hello program that uses getgrgid_r() in c
+What caused clang to warn about unused arguments like -static-libstdc++
