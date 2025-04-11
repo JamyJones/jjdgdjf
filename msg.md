@@ -1,1 +1,1 @@
-Heeloo tessdata path
+Heeloo tessdata path cpp api
