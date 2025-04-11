@@ -1,1 +1,1 @@
-Write me code to use tesseract to scan an image using c++
+Are there any other c++ ocr libraries apart from tesseract list atleast 10
