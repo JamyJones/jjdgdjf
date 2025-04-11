@@ -1,1 +1,1 @@
-what to install so that this works -static-libstdc++
+Which package contains libcrypto.so
