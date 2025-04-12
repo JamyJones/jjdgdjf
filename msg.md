@@ -1,1 +1,1 @@
-How to capture output from python subprocess even when an error occurs
+How do multilingual programmers in java, javascript, python , kotlin, c++,c , lua, rust,etc able to keep their knowlegde
