@@ -1,1 +1,1 @@
-How can i trigger an click even on and html element like a convas
+In cpp argparse/argparse.hpp how do we handle boolean args
