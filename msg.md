@@ -1,1 +1,1 @@
-How do we do an f string in c++ and then convert it to c-str or just show th c way straight away
+In flask how can get Post request , show the javascript code that sends the request  with some data and then the flask route that get the data from the request
