@@ -1,1 +1,1 @@
-Are there any other c++ ocr libraries apart from tesseract list atleast 10
+Hi
