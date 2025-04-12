@@ -1,4 +1,4 @@
-What is the issue with my code
+What is wrong
 #include "gen_image.hpp"
 #include <argparse/argparse.hpp>
 #include <string.h>
@@ -25,25 +25,24 @@ program.add_argument("-T","--total-pages")
   .help("Get the total pages in the current pdf file");
 
   program.add_argument("-p", "--page")
-      .store_into(page_number
-          )
+      .default_value(1)
       .help("page to view");
 
   program.add_argument("-s", "--scale_factor")
-      .store_into(scale_factor)
+      .default_value(1.0f)
       .help("factor by which to scale the page image");
 
   try {
     program.parse_args(argc, argv);
-    if (auto arg = program.present("-i")) {
-      const char *fname = arg->c_str();
-      auto is_get_total_pages=program.present("--total-pages");
+      const char *fname = program.get<std::string>("-i").c_str();
+      bool is_get_total_pages=program.get<bool>("--total-pages");
       if(is_get_total_pages){
         std::cout<<get_total_pages(fname);
       }else{
+      page_number=program.get<int>("--page");
+      scale_factor=program.get<float>("--scale_factor");
       gen_page_image(fname,page_number,scale_factor);
       }
-    }
   } catch (const std::runtime_error &err) {
     std::cerr << err.what() << "\n";
     std::cerr << program << "\n";
@@ -51,7 +50,6 @@ program.add_argument("-T","--total-pages")
   }
   return 0;
 }
-
-Error libc++abi: terminating due to uncaught exception of type std::logic_error: Argument with default value always presents
-
-The behaviour i want is to always require the name of the pdf file , then if --total-pages is also present then do something else otherwise do something else too , also how can i get the values from the arguments if make optional without using store into.
+Error:
+./pdfviewer.so -i foo.pdf --page 3
+libc++abi: terminating due to uncaught exception of type std::bad_any_cast: bad any cast
