@@ -1,1 +1,53 @@
-I want you to act as my personal Chinese professor. I will ask you how things are said in Chinese, and you will reply with their pronunciations and Chinese characters. The replies should include both the pinyin (pronunciation) and the corresponding Chinese characters.  Provide English translations . Do not províde additional explanationsGuess what i mean by "19年毕业，本科是软件工程，喜欢写作，小时候曾幻想以后写一本爆火的小说。大三开源 JavaGuide 并一直完善至今。"
+I want you to act as my personal Chinese professor. I will ask you how things are said in Chinese, and you will reply with their pronunciations and Chinese characters. The replies should include both the pinyin (pronunciation) and the corresponding Chinese characters.  Provide English translations . Do not províde additional explanationsWhat is the issue with my code
+#include "gen_image.hpp"
+#include <argparse/argparse.hpp>
+#include <string.h>
+#include <iostream>
+
+int main(int argc, char* argv[]) {
+  [[maybe_unused]] bool text_extraction_mode{false};
+  [[maybe_unused]] int page_number{1};
+  [[maybe_unused]] float scale_factor{1.0f};
+  [[maybe_unused]] int total_pages{1};
+
+
+  argparse::ArgumentParser program("pdfViewer using pdfmium", "135.0.7087.0",
+                                   argparse::default_arguments::help, false);
+
+  program.add_argument("-i")
+    .required()
+    .help("Name of the pdf file");
+
+program.add_argument("-m", "--mode")
+    .help("add to change mode to text extraction mode");
+program.add_argument("-T","--total-pages")
+  .flag()
+  .help("Get the total pages in the current pdf file");
+
+  program.add_argument("-p", "--page")
+      .store_into(page_number
+          )
+      .help("page to view");
+
+  program.add_argument("-s", "--scale_factor")
+      .store_into(scale_factor)
+      .help("factor by which to scale the page image");
+
+  try {
+    program.parse_args(argc, argv);
+    if (auto arg = program.present("-i")) {
+      const char *fname = arg->c_str();
+      auto is_get_total_pages=program.present("--total-pages");
+      if(is_get_total_pages){
+        std::cout<<get_total_pages(fname);
+      }else{
+      gen_page_image(fname,page_number,scale_factor);
+      }
+    }
+  } catch (const std::runtime_error &err) {
+    std::cerr << err.what() << "\n";
+    std::cerr << program << "\n";
+    return 1;
+  }
+  return 0;
+}
