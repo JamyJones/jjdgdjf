@@ -1,1 +1,1 @@
-in python subprocess how can i run my binary executable
+How to capture output from python subprocess even when an error occurs
