@@ -1,2 +1,1 @@
-In flask app how can i run print(msg),
-I did but nothing is printed
+in python subprocess how can i run my binary executable
