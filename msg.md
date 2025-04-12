@@ -1,4 +1,4 @@
-I want you to act as my personal Chinese professor. I will ask you how things are said in Chinese, and you will reply with their pronunciations and Chinese characters. The replies should include both the pinyin (pronunciation) and the corresponding Chinese characters.  Provide English translations . Do not províde additional explanationsWhat is the issue with my code
+What is the issue with my code
 #include "gen_image.hpp"
 #include <argparse/argparse.hpp>
 #include <string.h>
@@ -51,3 +51,5 @@ program.add_argument("-T","--total-pages")
   }
   return 0;
 }
+
+Error libc++abi: terminating due to uncaught exception of type std::logic_error: Argument with default value always presents
