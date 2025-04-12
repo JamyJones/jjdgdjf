@@ -1,1 +1,2 @@
-How do multilingual programmers in java, javascript, python , kotlin, c++,c , lua, rust,etc able to keep their knowlegde
+In c++ i have pdfmium api which i use to read the files, it only workes with basenames of the file but not paths,
+If i do ./main -i foo.pdf works but when i cd backwards and try maybe ./goo/main -i goo/foo.pdf doesn't work
