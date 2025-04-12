@@ -1,1 +1,1 @@
-Hi
+How do we do an f string in c++ and then convert it to c-str or just show th c way straight away
