@@ -53,3 +53,5 @@ program.add_argument("-T","--total-pages")
 }
 
 Error libc++abi: terminating due to uncaught exception of type std::logic_error: Argument with default value always presents
+
+The behaviour i want is to always require the name of the pdf file , then if --total-pages is also present then do something else otherwise do something else too , also how can i get the values from the arguments if make optional without using store into.
