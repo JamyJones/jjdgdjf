@@ -1,1 +1,2 @@
 show me how to fire mouse:down event in fabric.js on a FabricImage object
+And why after adding an image on th Canvas it doesn't render until i have to click on the canvas
