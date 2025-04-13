@@ -1,5 +1,6 @@
 Is this the correct in c++
-std::filesytem::path absPath = std::filesystem::absolute("foo.py");
+const char* filename=getname();
+std::filesytem::path absPath = std::filesystem::absolute(filename);
 Versus
-std::filesystem::path p("foo.py")
+std::filesystem::path p(filename)
 std::string filepath = std::filesystem::absolute(p)
