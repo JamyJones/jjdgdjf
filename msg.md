@@ -1,1 +1,1 @@
-When using fabric how do i fire a click even
+When using fabric.js how do i fire a click event
