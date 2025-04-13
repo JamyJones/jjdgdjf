@@ -29,4 +29,4 @@ FPDF_EXPORT FPDF_BOOL FPDF_CALLCONV FPDFBitmap_FillRect(FPDF_BITMAP bitmap,
                                                         int width,
                                                         int height,
                                                         FPDF_DWORD color);
-I want complete tranparent
+What happens if i set no color, i just want to avoid blending and just usebthe pdf's own background color
