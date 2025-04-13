@@ -1,1 +1,1 @@
-How do pdf page loading work, show example of code in python, specifically does it use some kind of stack such that pages are shown as required not making user wait for page loading
+How do pdf page loading work, show example of code in javascript, specifically does it use some kind of stack such that pages are shown as required not making user wait for page loading. Does it use recursion
