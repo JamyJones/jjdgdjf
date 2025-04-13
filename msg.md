@@ -1,1 +1,1 @@
-When i click a button in html it becomes some how darker how can i enable it again after ther the  click
+How do pdf page loading work, show example of code in python
