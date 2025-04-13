@@ -1,1 +1,1 @@
-While reading a pdf pdfium the what is the best function to use to generate bitmap with high color quality
+Apart from a bitmap, what else in pdfium can converted to an png image
