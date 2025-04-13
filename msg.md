@@ -1,1 +1,1 @@
-What is so special about pdfium which has v8, what more rendering features can i use
+pdfium convert page to image without rendering
