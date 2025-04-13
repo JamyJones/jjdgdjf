@@ -1,1 +1,1 @@
-Why is the basename of my file get encoded to binary like characters, in my c++ code the path expected is read as const char*
+Why is the basename of my file get encoded to binary like characters, in my c++ code the path expected is read as const char*, the path i read as an argument to the exetutable
