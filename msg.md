@@ -1,2 +1,2 @@
 show me how to fire mouse:down event in fabric.js on a FabricImage object
-And why after adding an image on th Canvas it doesn't render until i have to click on the canvas also how can i disable the selector on the image
+And why after adding an image on th Canvas it doesn't render until i have to click on the canvas also how can i disable the selector on the image, i want to be be able to scroll the image without seeing the selector
