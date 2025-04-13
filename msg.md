@@ -1,1 +1,1 @@
-What colors doesn't a bitmap display correctly compared to compressed versions like png or jpg.
+Show me how ti render a page in pdfium
