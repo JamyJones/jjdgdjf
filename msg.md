@@ -1,1 +1,1 @@
-In c++ when reading an argument and parsing it as const char* what should be thr length of the char
+When using fabric how do i fire a click even
