@@ -1,2 +1,1 @@
-In c++ i have pdfmium api which i use to read the files, it only workes with basenames of the file but not paths,
-If i do ./main -i foo.pdf works but when i cd backwards and try maybe ./goo/main -i goo/foo.pdf doesn't work
+Why is the basename of my file get encoded to binary like characters, in my c++ code the path expected is read as const char*
