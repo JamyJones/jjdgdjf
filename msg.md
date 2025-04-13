@@ -29,3 +29,4 @@ FPDF_EXPORT FPDF_BOOL FPDF_CALLCONV FPDFBitmap_FillRect(FPDF_BITMAP bitmap,
                                                         int width,
                                                         int height,
                                                         FPDF_DWORD color);
+I want no blending
