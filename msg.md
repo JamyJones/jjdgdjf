@@ -1,2 +1,1 @@
-In pdfium
-I know i can render the page as a bitmap but this is a lossy process, and then using libpng to save the bitmap as a png, however due to bitmap beig lossy, i end up with a destroyed images which color missing , blurring etc, apart from bitmap what other ways can i use to convert a pdf page to to some data which i can pass to libpng  without using bitmap , also from the API they say debighh
+What page rendering flags for pdfium can i use and how can i enable them
