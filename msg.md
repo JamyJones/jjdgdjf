@@ -1,1 +1,1 @@
-What is the best graphics library in c++ i need to process some bitmap
+in graphics processing in c++ What overlay can i apply to an image to make on blue colour turn to the it to skin color
