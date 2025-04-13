@@ -1,1 +1,1 @@
-What page rendering flags for pdfium can i use and how can i enable them
+What is the best graphics library in c++ i need to process some bitmap
