@@ -1,1 +1,1 @@
-in graphics processing in c++ What overlay can i apply to an image to make on blue colour turn to the it to skin color
+When i click a button in html it becomes some how darker how can i enable it again after ther the  click
