@@ -1,1 +1,1 @@
-What to link to when compiling a pdf processing cpp file which depends on mupdf
+What is libmupdf_java.so
