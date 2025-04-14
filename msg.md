@@ -1,1 +1,1 @@
-How can i convert a mupdf pixmap to png using libpng
+What to link to when compiling a pdf processing cpp file which depends on mupdf
