@@ -1,1 +1,1 @@
-What is libmupdf_java.so? Can i link to it in a c executable?
+What is libmupdf_java.so? Can i link to it in a c executable
