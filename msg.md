@@ -1,1 +1,1 @@
-What is libmupdf_java.so? Can i link to it in a c executable
+If i want to link to mupdf static library what linker flag can i use, i have libmupdf.a and libmupdf-third.a
