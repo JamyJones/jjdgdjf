@@ -1,1 +1,1 @@
-I have a file whose contents i want to insert into another text file at a specific  line, do you know of any commandline utility i can use
+How can i tell the linker to use weak symbols define libc in Makefile
