@@ -2,3 +2,4 @@
 Model not found or too long input. Or any other error (xD)
 Du musst das Kästchen anklicken!
 you have exceeded the maximum number of requests, please try again in 3 minute
+You have reached your request limit for the hour
