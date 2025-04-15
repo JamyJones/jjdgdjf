@@ -1,1 +1,2 @@
 What compiler command one liner is equivalent to this  code given that i have main.c?
+ar rcs libbackport.a main.o
