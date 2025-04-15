@@ -1,1 +1,1 @@
-How can i tell the linker to use weak symbols define libc in Makefile
+Is it possible to compile bionic for an older android API
