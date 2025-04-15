@@ -1,1 +1,1 @@
-How can i add text before line 212 in a given file using sed
+I have a file whose contents i want to insert into another text file at a specific  line, do you know of any commandline utility i can use
