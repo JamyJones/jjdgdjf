@@ -1,5 +1,5 @@
 What compiler flags can i pass in while using ndk to compile code for older api like i want to compile some code for 0android 6.0.1 , the compiler gives me errors about missing function fseeko,etc that were introduced in android 7.0+ .when i compile for say target api 24 the compiler successfully compiles but when i set api 23, the errors come up about missing symbols. I want to backport such functions functions but i don't know how
-
+(I don't know if these are the only missing but if you know more please add them for me or provide a reference to where i can download from their definitions)
 #if __ANDROID_API__ < 24
 #include <stdio.h>
 #include <sys/types.h>
