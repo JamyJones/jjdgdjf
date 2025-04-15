@@ -11,4 +11,4 @@ int fseeko(FILE *stream, off_t offset, int whence) {
 }
 #endif
 
-This code could work but i don't know how to let the compiler know that i have defined these symbols here, for some reason i don't want modify the original source files(i don't want to do things like "#include...") because there's like a hundred files that use such symbols/functions . If only there's a way for the compiler to know that i did define these symbols in file. Am Prefer using a Makefile.
+This code could work but i don't know how to let the compiler know that i have defined these symbols here, for some reason i don't want modify the original source files(i don't want to do things like "#include...") because there's like a hundred files that use such symbols/functions . If only there's a way for the compiler to know that i did define these symbols in file. Actually the thing is the build system i have only allows access direct to the compiler via viriables like LDflags ,
