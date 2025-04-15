@@ -1,1 +1,1 @@
-Inside a Makefile how do i check the current directory
+Inside a Makefile how do i check the current directory?
