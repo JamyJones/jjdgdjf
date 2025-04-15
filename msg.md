@@ -1,9 +1,1 @@
-I am using commandline but am facing problem with things like undefined symbols, can i use this "_FILE_OFFSET_BITS=64 " to my ndk to build
-
-tl;dr: Don't set _FILE_OFFSET_BITS=64 if you want to keep the behavior present in old NDKs.
-Historically, setting _FILE_OFFSET_BITS=64 in the NDK did nothing. This feature was not present in the deprecated headers at all. With unified headers, the NDK now has up to date headers with support for this feature.
-_FILE_OFFSET_BITS=64 is a macro you can define in your application to get support for a 64-bit off_t in 32-bit code. This works by both making off_t 64-bit (by default it is 32-bit in 32-bit code) and by implicitly replacing calls to APIs like lseek with calls to lseek64.
-Support for _FILE_OFFSET_BITS=64 was not added to Android in a single release. One API, lseek64, has always been in bionic. Most APIs were added in Lollipop, and a few more were not added until later releases.
-If you're targeting a release that does not support the 64-bit off_t variant of a function you are using and have set _FILE_OFFSET_BITS=64, the function will not be available. This is in contrast to the behavior for r15 and r15b (but matches r15c) where the functions were wrongly exposed with a 32-bit off_t that would be silently truncated.
-Note that the 64-bit off_t APIs are still available without _FILE_OFFSET_BITS=64 under different names. For example, instead of lseek, call lseek64. Instead of off_t, use off64_t.
-Finally, since this feature is new to the NDK with unified headers, if you just want to return to the pre-unified headers behavior, all you need to do is stop setting _FILE_OFFSET_BITS=64.
+What compiler flags can i pass in while using ndk to compile code for older api like i want to compile some code for android 6.0.1 , the compiler gives me errors about missing function fseeko,etc that were introduced in android 7.0+ .when i compile for say target api 24 the compiler successfully compiles but when i set api 23, the errors come up about missing symbols.
