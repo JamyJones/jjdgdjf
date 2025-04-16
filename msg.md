@@ -1,1 +1,1 @@
-Can i use opengl without rendering directly on screen but output the renderred graphics as png files
+What is the best library to play with graphics in cpp
