@@ -1,1 +1,1 @@
-What do package gives the linker flag "-ld"
+What package gives the linker flag "-ldl"
