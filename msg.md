@@ -1,1 +1,1 @@
-Can trump have worms
+How much time do people spend coding compared to debugging
