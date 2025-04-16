@@ -1,1 +1,1 @@
-How can i check the docker pid exec file path
+Can people who have 6 pack have intestinal worms
