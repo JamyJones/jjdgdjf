@@ -1,50 +1,45 @@
-ld.lld: error: undefined symbol: opj_set_default_decoder_parameters
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+How can i fix
+ld.lld: error: undefined symbol: jbig2_release_page
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a                         >>> referenced 2 more times
 
- ld.lld: error: undefined symbol: opj_create_decompress
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ ld.lld: error: undefined symbol: jbig2_ctx_free
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by filter-jbig2.c                                  >>>               filter-jbig2.o:(close_jbig2d) in archive /data/data/com.termux/files/usr/lib/libmupdf.a                          
+ ld.lld: error: undefined symbol: jbig2_ctx_new_imp
+ >>> referenced by load-jbig2.c                                    >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a                         >>> referenced by filter-jbig2.c                                  >>>               filter-jbig2.o:(fz_load_jbig2_globals) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by filter-jbig2.c
+ >>>               filter-jbig2.o:(fz_open_jbig2d) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
 
- ld.lld: error: undefined symbol: opj_set_info_handler
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ ld.lld: error: undefined symbol: jbig2_data_in
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by filter-jbig2.c
+ >>>               filter-jbig2.o:(fz_load_jbig2_globals) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by filter-jbig2.c
+ >>>               filter-jbig2.o:(next_jbig2d) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
 
- ld.lld: error: undefined symbol: opj_set_warning_handler
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ ld.lld: error: undefined symbol: jbig2_complete_page
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by filter-jbig2.c
+ >>>               filter-jbig2.o:(next_jbig2d) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
 
- ld.lld: error: undefined symbol: opj_set_error_handler
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ ld.lld: error: undefined symbol: jbig2_page_out
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by load-jbig2.c
+ >>>               load-jbig2.o:(jbig2_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced 4 more times
 
- ld.lld: error: undefined symbol: opj_setup_decoder
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
-
- ld.lld: error: undefined symbol: opj_stream_default_create
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
-
- ld.lld: error: undefined symbol: opj_stream_set_read_function
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
-
- ld.lld: error: undefined symbol: opj_stream_set_skip_function
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
-
- ld.lld: error: undefined symbol: opj_stream_set_seek_function
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
-
- ld.lld: error: undefined symbol: opj_stream_set_user_data
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
-
- ld.lld: error: undefined symbol: opj_stream_set_user_data_length
- >>> referenced by load-jpx.c
- >>>               load-jpx.o:(jpx_read_image) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
-
- ld.lld: error: undefined symbol: opj_read_header
- >>> referenced by load-jpx.c
+ ld.lld: error: undefined symbol: jpeg_std_error
+ >>> referenced by load-jpeg.c
+ >>>               load-jpeg.o:(fz_load_jpeg) in archive /data/data/com.termux/files/usr/lib/libmupdf.a
+ >>> referenced by load-jpeg.c
