@@ -1,1 +1,1 @@
-Is it possible to compile bionic for an older android API
+What command can i run to get something similar to this as the output "/tmp/docker-exec-pid-2025-04-16-03.56.54.0
