@@ -1,1 +1,1 @@
-Suggest me any other c/c++ pdf reader because mupdf is too large for me to store on my system yet i need few functionality
+Suggest me any other c/c++ pdf reader because mupdf is too large for me to store on my system yet i need few functionality. All i need is to get a pdf page convert it to png and save it
