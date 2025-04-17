@@ -1,1 +1,1 @@
-Without using gitignore how else can i make git ingore file
+How can i install libpng in linux ubuntu
