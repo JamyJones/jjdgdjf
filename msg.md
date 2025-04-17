@@ -1,1 +1,1 @@
-What is libz.so
+how can i run jni shared library in cli
