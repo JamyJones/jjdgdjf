@@ -1,1 +1,1 @@
-In cpp compilation what causes gen_w_mupdf.cpp:(.text+0x4e): undefined reference to `std::cerr'
+Does g++ compile c code
