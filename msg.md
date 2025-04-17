@@ -1,1 +1,1 @@
-what is bitmap stride in pfium
+what is bitmap stride in pfium?
