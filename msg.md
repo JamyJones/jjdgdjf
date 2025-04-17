@@ -1,1 +1,1 @@
-How can i use patchelf to find which libararies a shared library is linked to
+What is libz.so
