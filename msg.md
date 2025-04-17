@@ -1,1 +1,1 @@
-Is it possible to remove jni support from a shared library if o don't have it's source code such that it can be linked to c executable
+Is it possible to extract only the potions of the shared libary my executable needs while compiling c code without linking to the shared library
