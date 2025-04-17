@@ -1,1 +1,1 @@
-what is bitmap stride in pfium?
+Is their a mupdf for js
