@@ -1,1 +1,1 @@
-How can i install libpng in linux ubuntu
+What CLI tool can i use to check my c/cpp code for errors
