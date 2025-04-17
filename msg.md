@@ -1,1 +1,1 @@
-Why my compiler compiles cpp code file but doesn't want to compile c files
+Without using gitignore how else can i make git ingore file
