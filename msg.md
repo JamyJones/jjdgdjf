@@ -1,1 +1,1 @@
-how can i run jni shared library in cli say if in have c executable and i link it to thr jni library without using java
+Is it possible to remove jni support from a shared library such that it can be linked to c executable
