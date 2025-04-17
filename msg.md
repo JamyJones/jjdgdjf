@@ -1,2 +1,1 @@
-What is going on
-CANNOT LINK EXECUTABLE: cannot locate symbol "_ZN10CFX_Matrix3SetEffffff" referenced by "/system/lib/libandroid_runtime.so"...
+How can i use patchelf to find which libararies a shared library is linked to
