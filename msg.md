@@ -1,1 +1,1 @@
-How can i tell the compiler where the source files are when i don't want explictly type their names by hand
+Why my compiler compiles cpp code file but doesn't want to compile c files
