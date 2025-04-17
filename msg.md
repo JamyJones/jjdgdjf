@@ -1,1 +1,1 @@
-Is it possible to extract only the potions of the shared libary my executable needs while compiling c code without linking to the shared library
+How can i tell the compiler where the source files are when i don't want explictly type their names by hand
