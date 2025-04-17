@@ -1,1 +1,2 @@
-What cli tools can i use to extract pdf pages to png
+What is going on
+CANNOT LINK EXECUTABLE: cannot locate symbol "_ZN10CFX_Matrix3SetEffffff" referenced by "/system/lib/libandroid_runtime.so"...
