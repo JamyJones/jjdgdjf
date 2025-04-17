@@ -1,1 +1,1 @@
-C++ graphics libraries
+In pdfium , how i make the bitmap more detailed
