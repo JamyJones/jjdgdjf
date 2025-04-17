@@ -1,1 +1,1 @@
-The command "ls foo/*" return the complete path as seen from the current working directory each on a new line how can i return them on one line
+In cpp compilation what causes gen_w_mupdf.cpp:(.text+0x4e): undefined reference to `std::cerr'
