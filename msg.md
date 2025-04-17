@@ -1,1 +1,1 @@
-How can i concatenate strings  in bash
+The command "ls foo/*" return the complete path as seen from the current working directory each on a new line how can i return them on one line
