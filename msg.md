@@ -1,1 +1,1 @@
-Does does pdfium page be rendered on something else rather than
+can does pdfium page be rendered on something else rather than
