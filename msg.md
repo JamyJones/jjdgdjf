@@ -1,1 +1,1 @@
-In pdfium , how i make the bitmap more detailed
+What is better to use for rendering high quality pdf page in pdfium between bitmap and skia
