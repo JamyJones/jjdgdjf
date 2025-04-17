@@ -1,1 +1,1 @@
-What is better to use for rendering high quality pdf page in pdfium between bitmap and skia
+What happens if i call render to bitmap many times, while using pdfium , will the bitmap havemore quality
