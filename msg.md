@@ -1,1 +1,1 @@
-What is the best library to play with graphics in cpp that i can use in headless
+Does does pdfium page be rendered on something else rather than
