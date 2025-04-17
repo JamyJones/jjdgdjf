@@ -1,1 +1,1 @@
-What happens if i call render to bitmap many times, while using pdfium , will the bitmap havemore quality
+what is bitmap stride in pfium
