@@ -1,1 +1,1 @@
-Is it possible to remove jni support from a shared library such that it can be linked to c executable
+Is it possible to remove jni support from a shared library if o don't have it's source code such that it can be linked to c executable
