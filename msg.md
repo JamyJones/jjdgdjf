@@ -1,1 +1,1 @@
-What is lcms2mt.h how to install?
+When running make how can i specify a directory path where my headers are located
