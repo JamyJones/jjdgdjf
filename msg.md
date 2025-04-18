@@ -1,1 +1,1 @@
-On linux ubuntu how can i install , freetype, harfbuzz, libjpeg, zlib
+effect of running make with sudo
