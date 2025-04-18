@@ -1,1 +1,1 @@
-Where on linux is the package include directory located
+On linux ubuntu how can i install , freetype, harfbuzz, libjpeg, zlib
