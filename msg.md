@@ -1,4 +1,4 @@
-Can i tell the compiler to get past these error
+Can i tell the compiler to get past incompatibility errors because this code should give compile time error but runtime errors
 src/mupdf-src/archive.c:169:9: error: assigning to 'fz_archive *' from incompatible type 'void *'
    169 |         arch = Memento_label(fz_calloc(ctx, 1, size), "fz_archive");
        |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
