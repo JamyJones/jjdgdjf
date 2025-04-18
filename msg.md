@@ -1,1 +1,1 @@
-Which package contains bits/wordsize.h
+How can i install glibc on ubuntu
