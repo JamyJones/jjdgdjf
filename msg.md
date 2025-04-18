@@ -1,1 +1,1 @@
-Hey
+list all path on ubuntu where there's a possiblity of a header directory
