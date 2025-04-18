@@ -1,1 +1,4 @@
-What happens if i run make when i have a file called user.make in the same directory
+What does this mean
+export XCFLAGS=-fPIC                      &&
+make build=release shared=yes verbose=yes &&
+unset XCFLAGS
