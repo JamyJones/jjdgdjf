@@ -1,1 +1,1 @@
-I have install liblcms2-dev but don't know where it's header files are , how can i find them
+I need libcms2mt
