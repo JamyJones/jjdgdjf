@@ -1,2 +1,1 @@
-When running make how can i specify a directory path where my headers are located, can i do 
-make CPPFLAGS+="-I./include"
+What happens if i run make when i have a file called user.make in the same directory
