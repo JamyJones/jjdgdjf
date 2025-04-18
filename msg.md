@@ -1,1 +1,2 @@
-In a makefile how can i tell the compiler not to warn me about incompatible types
+How can i use ndk instead of gcc or clang
+make HAVE_X11=no HAVE_GLUT=no prefix=/usr/local install
