@@ -1,1 +1,1 @@
-list all path on ubuntu where there's a possiblity of a header directory
+why is rigrep faster than grep
