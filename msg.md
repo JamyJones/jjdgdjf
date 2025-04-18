@@ -1,1 +1,2 @@
-effect of running make with sudo
+Is this correct
+export XCFLAGS="-fPIC -I/usrc/include -I/usr/local/include"
