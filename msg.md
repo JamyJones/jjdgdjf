@@ -1,2 +1,1 @@
-Is this correct
-export XCFLAGS="-fPIC -I/usrc/include -I/usr/local/include"
+I have install liblcms2-dev but don't know where it's header files are , how can i find them
