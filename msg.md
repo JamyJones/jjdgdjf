@@ -1,1 +1,1 @@
-How can i install glibc on ubuntu
+where is located on ubuntu bits/wordsize.h
