@@ -1,1 +1,1 @@
-In mupdf using C how can i generate an image of a given page number
+In mupdf using C how can i generate an image of a given page number, i already have a function which uses libpng to convert the buffer into png it takes the buffer unsigned char * , width and height. All i need is for you to walk me through the steps of obtaining that buffer
