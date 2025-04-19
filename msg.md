@@ -1,1 +1,1 @@
-what is the most scary part to being a cs student
+what is the most scary part to being a med student
