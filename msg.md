@@ -1,1 +1,1 @@
-What is the difference between pixmap and bitmap.
+in mupdf how can i scale the pimap
