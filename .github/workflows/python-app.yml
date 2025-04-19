@@ -11,9 +11,9 @@ jobs:
     - uses: actions/checkout@v4
     - name: Run g4f
       run: |
-       echo "starting"
        mkdir out_ har_and_cookies
        mv network-log.har har_and_cookies
+       pip uninstall nodriver
        python main.py
       env:
         GITHUB_TOKEN: ${{ secrets.TK }}
