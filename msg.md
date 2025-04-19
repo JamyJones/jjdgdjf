@@ -1,1 +1,1 @@
-Hey welcome back
+How can i make NDK point to a directory
