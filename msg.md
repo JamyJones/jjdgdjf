@@ -1,1 +1,1 @@
-What does unbound variable mean in bash
+How can i update my version of c++ on linux
