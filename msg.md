@@ -1,1 +1,1 @@
-what is the most scary part to being a vitech student
+what is the most scary part to being DJ student
