@@ -1,1 +1,1 @@
-How to list c++ standards available
+How to tell the compiler to use c++17
