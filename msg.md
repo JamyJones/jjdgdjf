@@ -1,2 +1,1 @@
-What does this bash snippet do
-if [ ! -d foo ]; then
+In docker how can i set environment variable
