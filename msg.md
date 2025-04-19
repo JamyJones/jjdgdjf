@@ -1,1 +1,1 @@
-How to catch error of command in bash
+How to catch error of command in ci so that the workflow continues on even when a given command errors
