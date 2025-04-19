@@ -1,1 +1,1 @@
-What is the difference between pixmap and bitmap
+What is the difference between pixmap and bitmap.
