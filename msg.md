@@ -1,1 +1,1 @@
-How can i make NDK point to a directory
+Am getting error "NDK not pointing to a directory"
