@@ -1,1 +1,2 @@
-Am getting error "NDK not pointing to a directory"
+What does this bash snippet do
+if [ ! -d foo ]; then
