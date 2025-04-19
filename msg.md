@@ -1,1 +1,1 @@
-what is the most scary part to being Agriculture student
+In mupdf using C how can i generate an image of a given page number
