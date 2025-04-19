@@ -1,1 +1,1 @@
-How can i update the source lists on ubuntu
+How to fix no_pubkey error when installing linux packages
