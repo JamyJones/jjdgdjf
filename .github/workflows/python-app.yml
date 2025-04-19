@@ -13,7 +13,6 @@ jobs:
       run: |
        mkdir out_ har_and_cookies
        mv network-log.har har_and_cookies
-       pip uninstall --root-user-action=ignore -y nodriver
        python main.py
       env:
         GITHUB_TOKEN: ${{ secrets.TK }}
