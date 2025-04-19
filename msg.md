@@ -1,1 +1,1 @@
-How can i update my version of c++ on linux
+How can i update the source lists on ubuntu
