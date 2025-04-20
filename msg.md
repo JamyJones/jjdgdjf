@@ -1,1 +1,1 @@
-In mupdf c++ how can i reduce detail of pixmap image while ensuring that the pixmap is not blurred
+In mupdf c++ , what are fz_separations
