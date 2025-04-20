@@ -1,1 +1,1 @@
-In c++ how to convert from float to int using static cast
+If am making a manga-pdf reader using mupdf , what should i use between pixmap and bitmap if in want faster processing
