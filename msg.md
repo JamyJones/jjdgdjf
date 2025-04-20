@@ -1,1 +1,1 @@
-in mupdf how can i scale the pimap
+How can i set  the width of a pixmap in mupdf
