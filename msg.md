@@ -1,1 +1,1 @@
-How fast can mupdf that uses pixmap over pdfmium that uses bitmap
+In c++ if you get a float and divide it by an int what do you gwt
