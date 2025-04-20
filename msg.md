@@ -1,1 +1,1 @@
-In mupdf c++ how can i reduce detail of pixmap image while ensuring that the pixmap in clear
+In mupdf c++ how can i reduce detail of pixmap image while ensuring that the pixmap is not blurred
