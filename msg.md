@@ -1,1 +1,1 @@
-How can i set  the width of a pixmap in mupdf in c++
+In c++ how to convert from float to int using static cast
