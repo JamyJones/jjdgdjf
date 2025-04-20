@@ -1,1 +1,3 @@
-In c++ if you get a float and divide it by an int what do you gwt
+fz_rect page_bounds = fz_bound_page(doc, page);
+
+What is the width and height of the page in mupdf
