@@ -1,5 +1,1 @@
-float max_dimension = fz_max(page_bounds.x1 - page_bounds.x0, page_bounds.y1 - page_bounds.y0);
-float desired_size = 500.0; // Example: fit within 500 pixels
-float scale = desired_size / max_dimension;
-fz_matrix transform = fz_scale(scale, scale);
-Why the image has no height after scaling
+In mupdf c++ after using fz_scale(), the image is scaled the page is correctly scaled but then some parts become invisible, towards the rightside of the page, how can set the origin after scaling so that the page contents are pulled back into the view area of the page
