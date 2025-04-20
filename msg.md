@@ -1,6 +1,5 @@
-fz_rect page_bounds = fz_bound_page(doc, page);
-float scale_x = (page_bounds.x1 - page_bounds.x0);
-float scale_y = (page_bounds.y1 - page_bounds.y0);
-fz_matrix transform = fz_scale(scale_x, scale_y);
-
-Why how can i scale with the same factor along the width and height such that they adjust accordingly
+float max_dimension = fz_max(page_bounds.x1 - page_bounds.x0, page_bounds.y1 - page_bounds.y0);
+float desired_size = 500.0; // Example: fit within 500 pixels
+float scale = desired_size / max_dimension;
+fz_matrix transform = fz_scale(scale, scale);
+Why the image has no height after scaling
