@@ -1,1 +1,1 @@
-If am making a manga-pdf reader using mupdf , what should i use between pixmap and bitmap if in want faster processing
+How can i set then number of pixel for each pixmap in c++ using mupdf
