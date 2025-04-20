@@ -1,1 +1,1 @@
-How can i set  the width of a pixmap in mupdf
+How can i set  the width of a pixmap in mupdf in c++
