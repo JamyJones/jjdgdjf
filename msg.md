@@ -1,1 +1,1 @@
-in mupdf c++  iam setting the background color of a pixmap to white (0xFF), i want to use percentages to modify this from time to time
+in mupdf c++ how can i set pixmap background to transparent
