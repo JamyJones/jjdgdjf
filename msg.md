@@ -1,1 +1,1 @@
-in mupdf c++ , how can i set the page background?
+in mupdf c++ , how can i set the page background? I what to have #faebd7
