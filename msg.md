@@ -1,1 +1,1 @@
-How can i set the orientation of an html element
+In fabric js , how can i set the orientation of the view port
