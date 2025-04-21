@@ -1,1 +1,1 @@
-Why is it so hard to make a forrune as a doctor than a software engineer
+Why is it so hard to make a fortune as a software engineer than a doctor
