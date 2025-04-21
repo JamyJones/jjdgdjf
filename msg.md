@@ -1,1 +1,1 @@
-I have an region with specific dimensions,in that region i want to fit in a given object of specific dimensions, how can i scale  the object to fit in the region if both dimensions are in 2d, some objects have dimensions which are both larger than the regions dimensions so doing  things like length_object/length_region will not work because the scale factor will still be larger (above 1) which will result into enlargment of the object and clipping
+Does problem solving skills improve when i practice coding challenges
