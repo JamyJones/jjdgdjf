@@ -1,1 +1,1 @@
-In mupdf c++ after using fz_scale(), the image is scaled the page is correctly scaled but then some parts become invisible, towards the rightside of the page, how can set the origin after scaling so that the page contents are pulled back into the view area of the page
+in mupdf c++  iam setting the background color of a pixmap to white (0xFF), i want to use percentages to modify this from time to time
