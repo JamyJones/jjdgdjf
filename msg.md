@@ -1,1 +1,1 @@
-Hey list the standard page sizes and then tell me what each is best for when it comes to pdf
+A4 page size to pixels would be equal to what
