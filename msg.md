@@ -1,1 +1,1 @@
-white is 0xffff , how can I convert #faebd7 to the same format as that used by white
+Give me smarcking emoji
