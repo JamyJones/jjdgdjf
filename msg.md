@@ -1,1 +1,1 @@
-in mupdf c++ how can i set pixmap background to transparent
+what do software engineers do
