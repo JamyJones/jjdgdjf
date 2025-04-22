@@ -1,12 +1,11 @@
-This is my cordova config.xml how can set the orientation to landscape
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ace.code" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>VGamePad</name>
-    <description>Sample Apache Cordova App</description>
-    <author email="johndelvin51@gmail.com" href="https://cordova.apache.org">
-        Apache Cordova Team
-    </author>
-    <content src="index.html" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-</widget>
+What is this error while settung cordova 11.0.0
+Could not compile settings file '/home/runner/work/Ace-Code/Ace-Code/platforms/android/settings.gradle'.
+> startup failed:
+  General error during conversion: Unsupported class file major version 61
+  
+  java.lang.IllegalArgumentException: Unsupported class file major version 61
+  	at groovyjarjarasm.asm.ClassReader.<init>(ClassReader.java:189)
+  	at groovyjarjarasm.asm.ClassReader.<init>(ClassReader.java:170)
+  	at groovyjarjarasm.asm.ClassReader.<init>(ClassReader.java:156)
+  	at groovyjarjarasm.asm.ClassReader.<init>(ClassReader.java:277)
+  	at org.codehaus.groovy.ast.decompiled.
