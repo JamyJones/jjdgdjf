@@ -1,1 +1,1 @@
-How can i make the contents of the android webview resizable
+How can i create a PWA for my flask app
