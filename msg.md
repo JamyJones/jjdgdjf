@@ -1,1 +1,1 @@
-Which career will guarantee a fortune in short period with less struggle
+From cli how can i get information about installed android build-tools
