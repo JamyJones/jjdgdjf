@@ -1,1 +1,1 @@
-How can i change the orientation of the viewport in html
+After rotating an html element, like 90 deg how can i remove the space left after the rotation
