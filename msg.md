@@ -1,1 +1,1 @@
-In javascript how can i run some on finishing loading an image
+Un javascript how can i check if some element is visibel
