@@ -1,1 +1,1 @@
-After rotating an html element, like 90 deg how can i remove the space left after the rotation
+In javascript how can i run some on finishing loading an image
