@@ -1,1 +1,1 @@
-How can i fit a large image in s given dom element without clipping
+Ok
