@@ -1,1 +1,1 @@
-In android how can i run a website url emded in an html file
+in android how can i all set the app to continue run in background when user leaves the Activity and also how can i set the orientation to landscape
