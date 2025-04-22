@@ -1,1 +1,1 @@
-What is A4 page size in inches
+In mutool, how can i pass in raster options
