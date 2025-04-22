@@ -1,1 +1,1 @@
-How can i prompt visitors for my websute to create shortcuts like app icons for my website
+Create me a dummy service worker to he,p me test my PWA
