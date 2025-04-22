@@ -1,1 +1,1 @@
-Is it a must for a PWA to be served on Served over HTTPS inorder for the browser to allow it create for it a shortcut or localhost is also possible
+How can i prompt visitors for my websute to create shortcuts like app icons for my website
