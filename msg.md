@@ -1,1 +1,1 @@
-in android how can i all set the app to continue run in background when user leaves the Activity .I don't have  anything to run in background, i just don't want the system to kill the app when i leave the activity, like i want it to like a terminal on a computer where a user can leave and get back when they want to.
+How can i make the contents of the android webview resizable
