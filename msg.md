@@ -1,1 +1,1 @@
-From cli how can i get information about installed android build-tools
+Why people a reluctant to learn to communicate with computers given the fact that everything in future will be computerised
