@@ -1,1 +1,1 @@
-What does truncate mean
+In c++ mupdf why after scaling a page conatining both umgaes and text , all images have been truncated
