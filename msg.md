@@ -1,1 +1,1 @@
-Lists the methods in javascript that are possible to call on an image object
+When i change an image src in javascript i want to reload that image into DOM  how do i do this
