@@ -1,1 +1,1 @@
-How can i turn an Image object into an image Dom element in javascript
+How can i change the orientation of the viewport in html
