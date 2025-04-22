@@ -1,1 +1,1 @@
-In bootstrap how can i change orientation of an element
+How can i turn an Image object into an image Dom element in javascript
