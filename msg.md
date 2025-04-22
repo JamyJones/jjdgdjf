@@ -1,1 +1,1 @@
-list all common page sizes for hugh quality
+How can i set the orientation in cordova android?
