@@ -1,1 +1,1 @@
-When i change an image src in javascript i want to reload that image into DOM  how do i do this
+In bootstrap how can i change orientation of an element
