@@ -1,1 +1,1 @@
-I have PWA am testing on android but it is not requesting me to create a shortcut ,  i am locally hosting it using flask so i don't if there'a a way to make connection https:127.0.0.1:port
+Is it a must for a PWA to be served on Served over HTTPS inorder for the browser to allow it create for it a shortcut or localhost is also possible
