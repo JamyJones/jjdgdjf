@@ -1,1 +1,1 @@
-Un javascript how can i check if some element is visibel
+What does truncate mean
