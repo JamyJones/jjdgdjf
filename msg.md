@@ -1,1 +1,12 @@
-How can i set the orientation in cordova android?
+This is my cordova config.xml how can set the orientation to landscape
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ace.code" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>VGamePad</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="johndelvin51@gmail.com" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
