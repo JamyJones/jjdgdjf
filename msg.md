@@ -1,1 +1,1 @@
-How can i create a PWA for my flask app
+I have PWA am testing on android but it is not requesting me to create a shortcut ,
