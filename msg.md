@@ -1,1 +1,1 @@
-Why people a reluctant to learn to communicate with computers given the fact that everything in future will be computerised
+In android how can i run a website url emded in an html file
