@@ -1,1 +1,3 @@
-What files are usually present at /usr/local/lib/android/sdk/cmdline-tools/latest
+This is outdated /home/runner/work/Ace-Code/Ace-Code/platforms/android/gradlew
+
+How can i generate new one which matches my gradle version
