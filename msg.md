@@ -1,1 +1,1 @@
-What is earth day
+How can i fit a large image in s given dom element without clipping
