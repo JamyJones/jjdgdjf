@@ -1,1 +1,1 @@
-In fabric js how can i change the the change an image orientation
+Lists the methods in javascript that are possible to call on an image object
