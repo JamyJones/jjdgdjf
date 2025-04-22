@@ -1,1 +1,1 @@
-In mutool, how can i pass in raster options
+In mutool convert, how can i pass in raster options
