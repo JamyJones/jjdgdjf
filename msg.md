@@ -1,3 +1,1 @@
-This is outdated /home/runner/work/Ace-Code/Ace-Code/platforms/android/gradlew
-
-How can i generate new one which matches my gradle version
+How can i install Build Tools: ^32.0.0 in github actions for android
