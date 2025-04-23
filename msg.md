@@ -1,1 +1,1 @@
-I am creating a pdf viewing  app, what should i use between json and sql for storing information about pages like last read, bookmarks, etc
+What is the best way to create a tracker for a pdf like what elements can i use
