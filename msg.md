@@ -1,1 +1,1 @@
-Hey
+I need to edit my androidManifest.xml to lock the the orientation to landscape , suggest me any good cli softawre to use
