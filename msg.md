@@ -1,1 +1,1 @@
-Show me how to use apktool from cli to edit the androidManifest.xml like change orientation to landascape
+Why programmers use multi screens
