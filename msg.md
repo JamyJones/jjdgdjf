@@ -1,1 +1,1 @@
-Why programmers use multi screens
+Why people who own the product earn more than those that actually create or employed to create it
