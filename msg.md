@@ -1,1 +1,1 @@
-What library in javascript can i use to create a seek bar or slider
+How can i use git locally to create a development branch and a stable branch such that i can work on development and only merge when the development branch is stable
