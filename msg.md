@@ -1,1 +1,1 @@
-What is a progressBar that can me manually adjusted called
+What library in javascript can i use to create a seek bar or slider
