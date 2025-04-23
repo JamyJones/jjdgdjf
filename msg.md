@@ -1,4 +1,4 @@
-Why is the Orientation not changing to landscape given i have Specified it in my AndroidManifest.xml
+Why is the Orientation not changing to landscape given i have Specified it in my AndroidManifest.xml and Full screen
 <?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" android:hardwareAccelerated="true" package="com.readEra" platformBuildVersionCode="30" platformBuildVersionName="11">
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>             <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
