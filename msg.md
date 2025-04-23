@@ -1,1 +1,1 @@
-Why people who own the product earn more than those that actually create or employed to create it
+How can i use jarsigner to sign an apk file
