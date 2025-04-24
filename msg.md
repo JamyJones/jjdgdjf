@@ -1,1 +1,1 @@
-What are the best way to win at life with an average mind and not so lucky
+What is an adapter in android
