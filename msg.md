@@ -1,4 +1,1 @@
-Hey how can i set background to colourless in mupdf c++
-Using this,
-fz_clear_pixmap_with_value(ctx, pix, 0);
-All i get is black image, i want the pixmap to adapt to any color of the the background where it's viewed
+Would it be logical to create a system like the one used in solo leveling to experiment it's effectiveness against real-life situation.
