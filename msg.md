@@ -1,1 +1,1 @@
-Hey hoe can i set background to colourless in mupdf
+Hey hoe can i set background to colourless in mupdf c++
