@@ -1,1 +1,2 @@
-Can i set the style of an DOM element which hasn't been appended to the DoM yet
+In javascript, if i call elm.onclick=function
+If function is defined somewhere else with it's own parameter how do i assign the function then to the onclick
