@@ -1,2 +1,1 @@
-In javascript, if i call elm.onclick=function
-If function is defined somewhere else with it's own parameter how do i assign the function then to the onclick
+Hey hoe can i set background to colourless in mupdf
