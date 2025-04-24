@@ -1,1 +1,1 @@
-List some of the colors to use for a pdf page
+List some of the background colors to use for a pdf page. I need around 12, include their codes
