@@ -1,1 +1,1 @@
-How can i work with an html collection. I need access to each elementin it
+Can i set the style of an DOM element which hasn't been appended to the DoM yet
