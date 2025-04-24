@@ -1,1 +1,7 @@
-Would it be logical to create a system like the one used in solo leveling to experiment it's effectiveness against real-life situation. Like an app which controls the user's device to a point where the app becomes the admin and limits access or renders the device useless til the task is complete in time and gives reward as a bonus for that.current operating  systems are too free , they don't strict monitor the health of the user how long the user is using it and what impact such addiction can have to their personal goals
+why this when i try to merge commits from my dev branch into master branch
+git merge dev
+Updating 96a1f46..31e97a0
+error: Your local changes to the following files would be overwritten by merge:
+        my_app/reader/__pycache__/views.cpython-311.pyc
+Please commit your changes or stash them before you merge.
+Aborting
