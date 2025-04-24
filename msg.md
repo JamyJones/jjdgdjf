@@ -1,1 +1,1 @@
-List some of the background colors to use for a pdf page. I need around 12, include their codes
+How can i work with an html collection. I need access to each elementin it
