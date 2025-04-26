@@ -1,1 +1,1 @@
-Who is an escort
+In android system how is android able to run java apps, does it have a JVM,
