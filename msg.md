@@ -1,3 +1,22 @@
-How to fix
-/home/runner/work/Phaser-psp-/Phaser-psp-/my-exercises/ShoppingCart/app/src/main/java/com/jdevoc/ShoppingCart/CartListFragment.java:26: error: non-static method getItems() cannot be referenced from a static context                                                      List<Item> items= CartLab.getItems();                                                      ^                                    /home/runner/work/Phaser-psp-/Phaser-psp-/my-exercises/ShoppingCart/app/src/main/java/com/jdevoc/ShoppingCart/CartListFragment.java:44: error: constructor CartHolder in class CartListFragment.Cart
-Holder cannot be applied to given types;                                        return new CartHolder(layoutInflater, parent);                           ^                                                required: LayoutInflater,ViewGroup,Bundle                         found:    LayoutInflater,ViewGroup                                reason: actual and formal argument lists differ in length
+Why is the content of the first activity not being dispalyed. My app disaplays the content  in the second  activity
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MaterialTheme">
+    <activity android:name=".CartListActivity">
+    <intent-filter>
+      <action android:name="android.intent.action.MAIN" />
+      <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+  </activity>
+  <activity
+            android:exported="true"
+            android:name=".ShoppingCartActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+</manifest>
