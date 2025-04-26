@@ -1,1 +1,1 @@
-In android system how is android able to run java apps, does it have a JVM,
+Who creates ART or DVM for android,
