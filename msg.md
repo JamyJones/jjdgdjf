@@ -1,1 +1,1 @@
-Why most developers today can't compare to the founders
+Why are the top 80% most rich men aren't doctors
