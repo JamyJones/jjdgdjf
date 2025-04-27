@@ -1,1 +1,1 @@
-Should i use flashcards to learn android development or stick with building things
+What code refactoring and linting features does Android Studio offer
