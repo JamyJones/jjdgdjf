@@ -1,1 +1,1 @@
-in Android using java , how can set a click listener on a view
+Should i use flashcards to learn android development or stick with building things
