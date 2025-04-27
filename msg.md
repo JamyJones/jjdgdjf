@@ -1,1 +1,1 @@
-Hey among software developers what is the highest paid rank
+Hey among software developers what is the highest paid rank per month
