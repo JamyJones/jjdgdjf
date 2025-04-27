@@ -1,1 +1,1 @@
-Hey among software developers what is the highest paid rank per month
+I have zero balance in my account, am high skilled in software engineering, i have zero work experience but have developed alot of programs, how can i build startup software company given all this
