@@ -10,7 +10,7 @@ from datetime import datetime
 
 client = Client()
 REPO = "Pastebin"
-REPO_R="jjdgdjf"
+REPO_R = "jjdgdjf"
 OWNER = "JamyJones"
 PATH = "paste.md"
 PATH_R = "msg.md"
@@ -28,9 +28,9 @@ with open("system.md", "r") as fhand:
 def getMessage():
     url = f"https://api.github.com/repos/{OWNER}/{REPO_R}/contents/{PATH_R}"
     headers = {
-    "Authorization": f"token {token}",
-    "Accept": "application/vnd.github.v3+json"
-}
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github.v3+json",
+    }
 
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
@@ -42,14 +42,14 @@ def getMessage():
         return "exit"
 
 
-def runChat(system_prompt,user_message):
+def runChat(system_prompt, user_message):
     """
     run chat.
     """
     msgGot = False
     while not msgGot:
         if system_prompt == "None":
-            system_prompt=sysMsg
+            system_prompt = sysMsg
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
@@ -99,12 +99,13 @@ def runChat(system_prompt,user_message):
                 print(f"Error updating file: {p.status_code} - {p.text}")
             break
 
+
 if __name__ == "__main__":
     prev_msg = ""
     while True:
         new_msg = json.loads(getMessage())
-        system_prompt=new_msg["prompt"]
-        user_message =new_msg["user_message"]
+        system_prompt = new_msg["prompt"]
+        user_message = new_msg["user_message"]
         if user_message == "exit":
             break
         elif user_message == prev_msg:
@@ -112,5 +113,5 @@ if __name__ == "__main__":
             current_time = datetime.now()
             print(current_time.strftime("%Y-%m-%d %H:%M:%S"))
         else:
-            runChat(system_prompt,user_message)
+            runChat(system_prompt, user_message)
             prev_msg = user_message
