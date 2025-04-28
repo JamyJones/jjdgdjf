@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Whenever i eat sugary things my teeth pain me"}
+{"prompt": "None", "user_message": "Whenever i eat sugary things my teeth pain me\n\"I notice sharp, brief pain in specific teeth right after eating pancakes\""}
