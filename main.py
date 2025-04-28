@@ -42,17 +42,19 @@ def getMessage():
         return "exit"
 
 
-def runChat(MSG):
+def runChat(system_prompt,user_message):
     """
     run chat.
     """
     msgGot = False
     while not msgGot:
+        if system_prompt == "None":
+            system_prompt=sysMsg
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[
-                {"role": "system", "content": sysMsg},
-                {"role": "user", "content": MSG},
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_message},
             ],
         )
         if response.choices[0].message.content not in not_allowed:
@@ -90,25 +92,25 @@ def runChat(MSG):
             # Update the file content using PUT request
             p = requests.put(url, headers=headers, json=data)
 
-            # Check if the u:pdate was successful
+            # Check if the update was successful
             if p.status_code == 200:
                 print("File updated successfully.")
             else:
                 print(f"Error updating file: {p.status_code} - {p.text}")
             break
 
-
 if __name__ == "__main__":
     prev_msg = ""
-    new_msg = ""
     while True:
-        new_msg = getMessage()
-        if new_msg == "exit":
+        new_msg = json.loads(getMessage())
+        system_prompt=new_msg["prompt"]
+        user_message =new_msg["user_message"]
+        if user_message == "exit":
             break
-        elif new_msg == prev_msg:
+        elif user_message == prev_msg:
             time.sleep(20)
             current_time = datetime.now()
             print(current_time.strftime("%Y-%m-%d %H:%M:%S"))
         else:
-            runChat(new_msg)
-            prev_msg = new_msg
+            runChat(system_prompt,user_message)
+            prev_msg = user_message
