@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In java17+ how can i get random string represenation of dates and store them in a  string array"}
+{"prompt": "None", "user_message": "In java can i call a method of a class from another file without instating the class fast"}
