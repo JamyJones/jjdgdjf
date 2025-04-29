@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What is akuna matata"}
+{"prompt": "None", "user_message": "What is smali"}
