@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Who is a bwatt?"}
+{"prompt": "None", "user_message": "What is LGBT"}
