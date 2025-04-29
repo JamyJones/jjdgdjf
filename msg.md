@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What is LGBT"}
+{"prompt": "None", "user_message": "What is akuna matata"}
