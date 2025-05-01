@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In java whats an abtract method, and what conditions should it be used in"}
+{"prompt": "None", "user_message": "Which langauges dod they use to create javacript"}
