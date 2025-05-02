@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Why after binding data to views to widgets RecyclerView adpter, when i update the data the changes aren't reflected in the view"}
+{"prompt": "None", "user_message": "Hello"}
