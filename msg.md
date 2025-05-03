@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Hey"}
+{"prompt": "None", "user_message": "Give some positive energy"}
