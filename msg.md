@@ -1,1 +1,1 @@
-{"prompt": "", "user_message": "Why does stretching after a HIIT workout is recommended"}
+{"prompt": "None", "user_message": "Tell me something stupid"}
