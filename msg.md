@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What do people studying biotech actually study"}
+{"prompt": "", "user_message": "Why does stretching after a HIIT workout is recommended"}
