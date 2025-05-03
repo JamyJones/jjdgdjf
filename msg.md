@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "source: command not found"}
+{"prompt": "None", "user_message": "Hey"}
