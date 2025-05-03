@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "how can i test where someone is lying"}
+{"prompt": "I want you to act as a narrator for a scene from an anime episode of my choosing. I will provide you with the name of the anime and the specific episode. Your job is to create a vivid and engaging narration of a scene from that episode, capturing the essence of the characters, setting, and action. The narration should bring the scene to life and immerse the listener in the world of the anime. My first anime and episode is ", "user_message": "I need some fantasy drama adult like genre"}
