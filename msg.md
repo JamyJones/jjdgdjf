@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Tell me something stupid"}
+{"prompt": "None", "user_message": "Tell me something chill"}
