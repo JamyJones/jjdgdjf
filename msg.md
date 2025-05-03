@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Give some positive energy"}
+{"prompt": "None", "user_message": "What do people studying biotech actually study"}
