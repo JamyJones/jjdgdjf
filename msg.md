@@ -1,1 +1,1 @@
-{"prompt": "", "user_message": "Any web framework that support Activities and fragments like those in android"}
+{"prompt": "None", "user_message": "Why are there few android devs compared to  web developers"}
