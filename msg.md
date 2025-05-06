@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How does upwork work, am new"}
+{"prompt": "None", "user_message": "What is  nerdwallet"}
