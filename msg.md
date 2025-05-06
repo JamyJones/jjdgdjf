@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Why are there few android devs compared to  web developers"}
+{"prompt": "None", "user_message": "Am learning Android development using bim and cli, nothing else what are your comments"}
