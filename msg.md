@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Hey"}
+{"prompt": "None", "user_message": "How does upwork work, am new"}
