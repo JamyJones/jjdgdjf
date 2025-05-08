@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "in java how do you append an array"}
+{"prompt": "None", "user_message": "In an array list how can i get index of an element"}
