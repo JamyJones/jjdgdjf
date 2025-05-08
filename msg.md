@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What is libsigrok used for"}
+{"prompt": "None", "user_message": "Why are alot of programs still written C even though it looks like it's development as a programming language came to end"}
