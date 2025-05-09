@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Hey"}
+{"prompt": "None", "user_message": "CANNOT LINK EXECUTABLE: cannot locate symbol \"jpeg_destroy_huffman_index\" referenced by \"/system/lib/libskia.so\"..."}
