@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In bash how can i check whether a file exists."}
+{"prompt": "", "user_message": "What is wrong i get \"gh accepts at most 1 arg(s), received 2\"\nmkdir Manga                                                       gh release download 2250.0.0 --pattern 'out*.zip'-D Manga/        zip -9 -r Manga.zip Manga/                                        gh release create \"$1\" Manga.zip"}
