@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In bash how can i check whether a file exists"}
+{"prompt": "None", "user_message": "In bash how can i check whether a file exists."}
