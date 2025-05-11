@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Is earth dying"}
+{"prompt": "None", "user_message": "Is bash better than python when it comes to scripting"}
