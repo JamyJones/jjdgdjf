@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What are some skills that will stay in high demand even after a century"}
+{"prompt": "None", "user_message": "Is earth dying"}
