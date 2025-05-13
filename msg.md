@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Is their any cli utility that can effectively compress an apk file"}
+{"prompt": "None", "user_message": "How can i split a universal apk into different variants using cli"}
