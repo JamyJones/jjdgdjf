@@ -1,1 +1,1 @@
-{"prompt": "", "user_message": "How does the scale and zoom properties of html work"}
+{"prompt": "", "user_message": "In html if i have an image that i want to zoomout what do i use"}
