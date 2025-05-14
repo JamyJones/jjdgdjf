@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What properties of the body change when a user zooms in on the page"}
+{"prompt": "None", "user_message": "What properties of the body change when a user zooms in on the page in html. Basically i want to lock setup a button that locks the  current zooming on the page."}
