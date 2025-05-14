@@ -1,1 +1,1 @@
-{"prompt": "", "user_message": "In html if i have an image that i want to zoomout what do i use"}
+{"prompt": "None", "user_message": "How can i generate a png image with transparent background with mutool"}
