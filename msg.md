@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How does th plaque remover work"}
+{"prompt": "None", "user_message": "Hey"}
