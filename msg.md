@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What Jobs can i do if i have a bachelors in CS"}
+{"prompt": "None", "user_message": "Do dentists study chemistry at university"}
