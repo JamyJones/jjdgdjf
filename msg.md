@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Do dentists study chemistry at university"}
+{"prompt": "None", "user_message": "Which medical major doesn't study chemistry"}
