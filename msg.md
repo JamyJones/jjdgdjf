@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Which medical major doesn't study chemistry"}
+{"prompt": "None", "user_message": "What do pharmacology students dtudy in chemistry"}
