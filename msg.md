@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What do pharmacology students dtudy in chemistry"}
+{"prompt": "None", "user_message": "What do pharmacology students dtudy in chemistry. Do they write balanced equations"}
