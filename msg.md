@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "What is bachelor of computer science in computer engineering?"}
+{"prompt": "None", "user_message": "What is bachelor of science in software engineering?"}
