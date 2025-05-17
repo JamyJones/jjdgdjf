@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "When working as a software engineer, is googling for help allowed or you need to know every single gunction or method that exists"}
+{"prompt": "None", "user_message": "exit"}
