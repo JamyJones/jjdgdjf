@@ -4,3 +4,5 @@ Du musst das Kästchen anklicken!
 you have exceeded the maximum number of requests, please try again in 3 minute
 You have reached your request limit for the hour
 You have reached your request limit for the hour. [Upgrade for higher rate limits](https://www.blackbox.ai/pricing?ref=rate-limit)
+Blocked by DuckDuckGo: Bot limit exceeded (ERR_BN_LIMIT).
+john End
