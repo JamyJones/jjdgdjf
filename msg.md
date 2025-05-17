@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Is anki good for long term learning? Should i just uninstall it and go old school"}
+{"prompt": "None", "user_message": "In javascript, how can you setup self destruction method for a class"}
