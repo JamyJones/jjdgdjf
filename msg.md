@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Error uploading/updating file S4.gif: {'message': \"Invalid request.\\n\\nFor 'properties/sha', nil is not a string.\", 'documentation_url': 'https://docs.github.com/rest/repos/contents#create-or-update-file-contents', 'status': '422'}"}
+{"prompt": "None", "user_message": "Github\nError uploading/updating file S4.gif: {'message': \"Invalid request.\\n\\nFor 'properties/sha', nil is not a string.\", 'documentation_url': 'https://docs.github.com/rest/repos/contents#create-or-update-file-contents', 'status': '422'}"}
