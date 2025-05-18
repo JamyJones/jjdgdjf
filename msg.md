@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Firebase vs supabase for Africa"}
+{"prompt": "None", "user_message": "Firebase vs supabase for Africa?"}
