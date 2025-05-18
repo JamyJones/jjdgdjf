@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "github actions\nMATRIX=$(seq 1 $streams_count | jq -c '[inputs]')\n  echo \"::set-output name=matrix::$MATRIX\"\n  shell: /usr/bin/bash -e {0}\nWarning: The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/"}
+{"prompt": "None", "user_message": "How can i use the github api to check whether a file exists"}
