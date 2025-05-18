@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Which location is closest to Uganda, Africa among London,Zurich,Paris,Frankfurt,stockholm"}
+{"prompt": "None", "user_message": "Firebase vs supabase for Africa"}
