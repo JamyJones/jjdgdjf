@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Which continent is closest to Uganda, Africa among west,central and East Europe?"}
+{"prompt": "None", "user_message": "Which location is closest to Uganda, Africa among London,Zurich,Paris,Frankfurt,stockholm"}
