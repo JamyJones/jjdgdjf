@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How can i write to a json file using jq, i want to append or modify an already existing json file"}
+{"prompt": "None", "user_message": "How can i write to a json file using jq, i want to append or modify an already existing json file. If i have a nested object like.\n{\"S1\":{\"name\":\"foo\",\"type\":\"jpg\"}}\nHow can i add another property like the \"src\"/\"url\""}
