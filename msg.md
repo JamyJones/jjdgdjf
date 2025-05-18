@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How can i use the github api to check whether a file exists"}
+{"prompt": "None", "user_message": "Which continent is closest to Uganda, Africa"}
