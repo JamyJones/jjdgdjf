@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How can i write to a json file using jq, i want to append or modify an already existing json file. If i have a nested object like.\n{\"S1\":{\"name\":\"foo\",\"type\":\"jpg\"}}\nHow can i add another property like the \"src\"/\"url\""}
+{"prompt": "None", "user_message": "Error uploading/updating file S4.gif: {'message': \"Invalid request.\\n\\nFor 'properties/sha', nil is not a string.\", 'documentation_url': 'https://docs.github.com/rest/repos/contents#create-or-update-file-contents', 'status': '422'}"}
