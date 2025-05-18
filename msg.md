@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "in javascript, how can i reload an image without changing it's src. Basically i have a backend which generates new images and assigns them the same url each time"}
+{"prompt": "None", "user_message": "How can i use rq command to read a json file and look for a key or even subkey"}
