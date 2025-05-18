@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How can i use rq command to read a json file and look for a key or even subkey"}
+{"prompt": "None", "user_message": "How can i use rq command to read a json file and look for a key value, if the key exists do something and else if it doesn't do something"}
