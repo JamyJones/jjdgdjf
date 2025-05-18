@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "If i have frequently updating elements, how should i update them in javascript?\nIs deleting and recreating them ok"}
+{"prompt": "None", "user_message": "in javascript, how can i reload an image without changing it's src. Basically i have a backend which generates new images and assigns them the same url each time"}
