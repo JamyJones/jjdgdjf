@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "If i have frequently updating elements, how should i update them in javascript?"}
+{"prompt": "None", "user_message": "If i have frequently updating elements, how should i update them in javascript?\nIs deleting and recreating them ok"}
