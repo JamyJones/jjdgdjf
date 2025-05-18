@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In javascript, how can you setup self destruction method for a class."}
+{"prompt": "None", "user_message": "In javascript, how can you setup self destruction method for a class?"}
