@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In supabase how can i login a user using javascript client"}
+{"prompt": "None", "user_message": "In supabase how can i login a user using javascript client and set the url for redirect"}
