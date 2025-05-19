@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "If how can i visit a link when button is clicked in html"}
+{"prompt": "None", "user_message": "Should i put the login form on the landing page or should i have a different page for it"}
