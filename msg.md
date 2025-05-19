@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Create a facebook like signup form using bootstrap form only input area for email or number and a password"}
+{"prompt": "None", "user_message": "In javascript how can i get the text value from text  and a password input elements in html"}
