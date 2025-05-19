@@ -7,9 +7,8 @@ import time
 import os
 from datetime import datetime
 
-
 client = Client()
-REPO = "Pastebin"
+REPO = "Pastebin2"
 REPO_R = "jjdgdjf"
 OWNER = "JamyJones"
 PATH = "paste.md"
