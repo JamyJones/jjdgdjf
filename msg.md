@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In javascript how can i get the text value from text  and a password input elements in html?"}
+{"prompt": "None", "user_message": "In javascript how can i get the text value from text  and a password input elements in html"}
