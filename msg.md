@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Firebase vs supabase for Uganda Africa?"}
+{"prompt": "None", "user_message": "How can i Use the Supabase javascript client library to manage channel creation, viewing, and deletion in your application."}
