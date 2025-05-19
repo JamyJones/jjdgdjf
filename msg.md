@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How do web developers manage to make all navigation bars have the same elements across all pages on a website"}
+{"prompt": "None", "user_message": "what key work has no use in javascript , i have used backticks and i need something just to stand in place to make it valid"}
