@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "what key work has no use in javascript , i have used backticks and i need something just to stand in place to make it valid, ok"}
+{"prompt": "None", "user_message": "If how can i visit a link when button is clicked in html"}
