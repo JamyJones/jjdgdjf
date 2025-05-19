@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Should i put the login form on the landing page or should i have a different page for it"}
+{"prompt": "None", "user_message": "Create a facebook like login form using bootstrap form"}
