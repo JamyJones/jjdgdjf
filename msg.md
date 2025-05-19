@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Using supabase javascript client , how can  i get allow autheticated users to create channels"}
+{"prompt": "None", "user_message": "Using supabase with javascript client, how can i retrieve channel from the channels table and send a message into the channel"}
