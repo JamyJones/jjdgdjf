@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In supabase using javascript client, how can i create a channel, and save it in database so that other users can join later or anytime"}
+{"prompt": "None", "user_message": "Using supabase javascript client , how can  i get allow autheticated users to create channels"}
