@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Does javascript allow function with the same name but different parameter types to be used?"}
+{"prompt": "None", "user_message": "How do web developers manage to make all navigation bars have the same elements across all pages on a website"}
