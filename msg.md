@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How can i Use the Supabase javascript client library to manage channel creation, viewing, and deletion in your application."}
+{"prompt": "None", "user_message": "In supabase using javascript client, how can i create a channel, and save it in database so that other users can join later or anytime"}
