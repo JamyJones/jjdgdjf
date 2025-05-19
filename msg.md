@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Using supabase with javascript client, how can i retrieve channel from the channels table and send a message into the channel"}
+{"prompt": "None", "user_message": "How is facebook able to store, information about user like get the user sent messages, conversations between two users or even a simple message"}
