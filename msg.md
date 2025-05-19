@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How can i get the date today in javascript"}
+{"prompt": "None", "user_message": "How can i specify the user\nasync function createUserProfile(userId, name) {\n  const { data, error } = await supabase\n    .from('profile')\n    .insert([\n      { user_id: userId, name: name, streak_hours: 0, last_seen: new Date().toISOString() }\n    ]);\n  if (error) console.error(error);\n  else console.log('Profile created:', data);\n}"}
