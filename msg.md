@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "ERROR: 42601: WITH CHECK cannot be applied to SELECT or DELETE\nERROR: 42601: WITH CHECK cannot be applied to SELECT or DELETE\n\nCREATE POLICY \"Allow authenticated users to delete their profile\"\nON \"public\".\"User Profiles\"\nFOR DELETE\nWITH CHECK (\"User Id\" = auth.uid());"}
+{"prompt": "None", "user_message": "How can i get the date today in javascript"}
