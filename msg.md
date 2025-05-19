@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In a bootstrap login form, how can i set actions for the submit button"}
+{"prompt": "None", "user_message": "How can i create supabase database for a user. Like i want a table called profile which specifically contain details about the user, like name streak(hours spent on the size typically an integer), last seen(timestamp) columns, i want each row to have a primary key of the user id such that i can easily retrieve data based on the user"}
