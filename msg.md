@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How is facebook able to store, information about user like get the user sent messages, conversations between two users or even a simple message"}
+{"prompt": "None", "user_message": "Does javascript allow function with the same name but different parameter types to be used"}
