@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "In supabase how can i login a user using javascript client and set the url for redirect"}
+{"prompt": "None", "user_message": "In a bootstrap login form, how can i set actions for the submit button"}
