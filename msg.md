@@ -1,1 +1,1 @@
-{"prompt": "", "user_message": "In supabase using javascript client, how i update a database record with a new column"}
+{"prompt": "", "user_message": "Am in supabase database. Modify the following database policy so that it check with a column called \"UserId\" that contain  id of authenticated users rather than email\ncreate policy \"Enable update for users based on email\"\non \"public\".\"User Profiles\"\nfor update using (\n  (select auth.jwt()) ->> 'email' = email\n) with check (\n  (select auth.jwt()) ->> 'email' = email\n);"}
