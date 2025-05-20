@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "From supabase database using javascript client how do i read a row from a table, and return the values from the table"}
+{"prompt": "", "user_message": "In supabase using javascript client, how i update a database record with a new column"}
