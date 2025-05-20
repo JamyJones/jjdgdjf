@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "The form submit button of bootstrap has listeners which i want to override. How can i do this"}
+{"prompt": "None", "user_message": "exit"}
