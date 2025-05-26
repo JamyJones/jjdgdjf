@@ -6,3 +6,5 @@ You have reached your request limit for the hour
 You have reached your request limit for the hour. [Upgrade for higher rate limits](https://www.blackbox.ai/pricing?ref=rate-limit)
 Blocked by DuckDuckGo: Bot limit exceeded (ERR_BN_LIMIT).
 Error during authentication for model gpt-4o: Failed to create temporary account. Status: 400, Details: You are not allowed to sign up.
+Want to talk about something else? I'm not able to discuss that topic, but I'm always happy to chat about other things! What else is on your mind?
+Error during authentication for model gpt-4o: Failed to create temporary account. Status: 403, Details: Invalid request. Please try again.
