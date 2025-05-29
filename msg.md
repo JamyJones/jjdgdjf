@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "How can i get length of an array in bash"}
+{"prompt": "None", "user_message": "I have simple project that in to compile with webpack, generate for only the required template files that make it a valid webpack project and only the files that make it recognisable by nodejs"}
