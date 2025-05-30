@@ -1,1 +1,1 @@
-{"prompt": "None", "user_message": "Act as a professional resume writer,your role is to write me a resume to a dish washer role openning.\nThe role requires applicants who can speak english, who can lift heavy stuff(dishes), who are very concius"}
+{"prompt": "None", "user_message": "How can i convert the text file into pdf using mutool"}
