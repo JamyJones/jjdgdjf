@@ -1,1 +1,1 @@
-{"prompt": "", "user_message": "Are trigger functions on supabase tables affected by RLS policies"}
+{"prompt": "", "user_message": "Are trigger functions on supabase tables affected by RLS policies?"}
